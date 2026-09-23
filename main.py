@@ -65,20 +65,15 @@ INFO = {
     "stats": {
         "title": "📊 Player & Dino Stats",
         "description": (
-            "**Player Stats**\n"
-            "• HP = **50x**\n• Stamina = **50x**\n• Oxygen = **50x**\n"
-            "• Food = Does not go down\n• Water = Does not go down\n"
-            "• Weight = **120x**\n• Damage = **15x**\n• Speed = **9x**\n"
-            "• Fortitude = **100x**\n• Crafting = **100000x**\n\n"
-            "**Tamed Dino Stats**\n"
-            "• HP = **25x**\n• Stamina = **50x**\n• Weight = **10000x**\n"
+            "**Player Stats**\n• HP = **50x**\n• Stamina = **50x**\n• Oxygen = **50x**\n"
+            "• Food = Does not go down\n• Water = Does not go down\n• Weight = **120x**\n"
+            "• Damage = **15x**\n• Speed = **9x**\n• Fortitude = **100x**\n• Crafting = **100000x**\n\n"
+            "**Tamed Dino Stats**\n• HP = **25x**\n• Stamina = **50x**\n• Weight = **10000x**\n"
             "• Damage = **15x**\n• Speed = **1.5x** *(enabled on all flying dinos)*\n\n"
-            "**Nerfed Dinos**\n"
-            "• Acros\n• Astrocetus (Space Whale)\n• Aureliax\n• Deinosuchus\n"
+            "**Nerfed Dinos**\n• Acros\n• Astrocetus (Space Whale)\n• Aureliax\n• Deinosuchus\n"
             "• Dreadnoughtus\n• Elderclaw\n• Gigadesmodus\n• Griffin *(slightly)*\n"
             "• Lumina\n• Magmasaur\n• Megachelon\n• Mek\n• Umbra\n• Veilwyn\n\n"
-            "**Blocked from Spawning** *(for better performance)*\n"
-            "• Compys\n• Ark Fish\n• Pegomastax"
+            "**Blocked from Spawning** *(for better performance)*\n• Compys\n• Ark Fish\n• Pegomastax"
         )
     }
 }
@@ -87,15 +82,9 @@ RULES = {
     "discord": {
         "title": "💬 Discord Rules",
         "description": (
-            "**1 • Player Registration**\n"
-            "All active players must register their in-game name and tribe name in the designated registration channel.\n\n"
-            "**2 • Zero Tolerance Policy – Harassment & Hate**\n"
-            "Racism, hate speech, discrimination, harassment, or targeted toxicity based on race, religion, gender, sexuality, nationality, or personal beliefs is strictly prohibited.\n\n"
-            "**Punishment Scale:**\n"
-            "• 1st Violation → Server Mute\n"
-            "• 2nd Violation → 3-Day Temporary Ban\n"
-            "• 3rd Violation → Permanent Ban\n"
-            "Staff reserve the right to escalate punishments immediately for severe or repeated offenses.\n\n"
+            "**1 • Player Registration**\nAll active players must register their in-game name and tribe name in the designated registration channel.\n\n"
+            "**2 • Zero Tolerance Policy – Harassment & Hate**\nRacism, hate speech, discrimination, harassment, or targeted toxicity based on race, religion, gender, sexuality, nationality, or personal beliefs is strictly prohibited.\n\n"
+            "**Punishment Scale:**\n• 1st Violation → Server Mute\n• 2nd Violation → 3-Day Temporary Ban\n• 3rd Violation → Permanent Ban\nStaff reserve the right to escalate punishments immediately for severe or repeated offenses.\n\n"
             "**3 • Channel Usage**\nPlease use channels for their intended purpose. Repeated misuse may result in a mute or further action.\n\n"
             "**4 • Community Conduct & Toxicity**\nCompetitive banter is expected and encouraged, but excessive salt, drama, or toxicity that negatively impacts the community will not be tolerated.\n\n"
             "**5 • Content Restrictions**\nNo NSFW, inappropriate, explicit, or highly offensive images, videos, memes, or links.\n\n"
@@ -126,14 +115,11 @@ RULES = {
     "tribe": {
         "title": "👥 Tribe & Alliance Rules",
         "description": (
-            "1. Maximum tribe size is **6 players**.\n"
-            "2. Only **one alliance** is permitted.\n"
-            "3. Alliance members may assist in raids and defenses.\n"
-            "*(Allies cannot participate in raids on **small tribes**. A small tribe is **1–4 registered members**.)*\n\n"
+            "1. Maximum tribe size is **6 players**.\n2. Only **one alliance** is permitted.\n"
+            "3. Alliance members may assist in raids and defenses.\n*(Allies cannot participate in raids on **small tribes**. A small tribe is **1–4 registered members**.)*\n\n"
             "4. No tribe cycling or alliance cycling. A minimum **24-hour waiting period** is required before joining a new tribe or alliance.\n"
             "5. Tribe or alliance changes may not occur during, immediately before, or immediately after a raid.\n"
-            "6. Tribe rosters must match the Tribe Registry.\n"
-            "7. Tribe names, players, and alliances must be the same across all maps.\n"
+            "6. Tribe rosters must match the Tribe Registry.\n7. Tribe names, players, and alliances must be the same across all maps.\n"
             "8. No teaming with players or tribes outside of your registered alliance during raids, defenses, scouting, or PvP.\n"
             "9. Temporary alliances or “helping friends” during PvP is considered teaming and is not allowed.\n"
             "10. If any tribe name, players, or alliances change, they must be updated on the Tribe Registration."
@@ -166,16 +152,19 @@ RULES = {
             "1. Third-party raiding is prohibited. Only the attacking and defending tribes/alliances may participate.\n"
             "*(Alliance attacking during a raid on **small tribes** is not allowed. A small tribe is **1–4 registered members**.)*\n\n"
             "2. Thralls are only allowed for PvE (bosses, exploring, etc.). They may not be used for raiding, defending, or PvP (small 1-2 man tribes may request admin permission).\n"
-            "3. No Cannon raiding.\n\n"
-            "**4. Space Whale Rules**\n"
-            "• Excluded from the propagator and unbreedable.\n"
-            "• Building on the back/platform is not permitted.\n"
-            "• Further adjustments may be made based on feedback.\n\n"
+            "3. No Cannon raiding.\n\n**4. Space Whale Rules**\n• Excluded from the propagator and unbreedable.\n• Building on the back/platform is not permitted.\n• Further adjustments may be made based on feedback.\n\n"
             "5. Using any creature abilities, structures, or effects to become fully invisible during PvP is strictly prohibited (including Space Whale burrowing and any builds that conceal the player).\n"
-            "6. Spamming in FOBs is not allowed.\n"
-            "7. Meks must not mesh unless clearing a meshed structure.\n"
-            "8. Donations are not allowed mid-raid.\n"
-            "9. Popcorning / uploading / destroying or taking loot during a raid is not allowed."
+            "6. Spamming in FOBs is not allowed.\n7. Meks must not mesh unless clearing a meshed structure.\n"
+            "8. Donations are not allowed mid-raid.\n9. Popcorning / uploading / destroying or taking loot during a raid is not allowed."
+        )
+    },
+    "harvest": {
+        "title": "🌾 Custom Harvest Zones Rules",
+        "description": (
+            "「-✦ Custom Harvest Zones Rules ✦-」\n\n"
+            "• No building permitted within a **30000 x 30000** range of the harvest zone.\n"
+            "• TPs / FOBs are allowed within a **35000 x 35000** range, but **no turrets** are allowed.\n"
+            "• **PvP is allowed** in these zones."
         )
     },
     "donations": {
@@ -184,17 +173,9 @@ RULES = {
             "• **All Sales Are Final** — No refunds once delivered (except clear technical errors on our side).\n"
             "• **Delivery Time** — Most packages arrive within 5–15 minutes. Open a ticket if not received within 30 minutes.\n"
             "• **One Character Only** — Purchased items are for one character only (unless character loss).\n"
-            "• **No Reselling** of packages.\n\n"
-            "**Cave Edits / Custom Entrances**\n"
-            "• Permanent once placed.\n"
-            "• You are responsible for providing correct location/details.\n"
-            "• Cannot be moved or refunded after completion.\n"
-            "• Abusing cave edits will result in removal + possible punishment.\n\n"
-            "• Make sure you are on the correct character when purchasing.\n"
-            "• Buying packages does not give immunity from server rules.\n"
-            "• Any chargeback results in a permanent ban and loss of all items.\n"
-            "• Need help? Open a support ticket.\n"
-            "• Donations are not allowed mid-raid."
+            "• **No Reselling** of packages.\n\n**Cave Edits / Custom Entrances**\n• Permanent once placed.\n• You are responsible for providing correct location/details.\n• Cannot be moved or refunded after completion.\n• Abusing cave edits will result in removal + possible punishment.\n\n"
+            "• Make sure you are on the correct character when purchasing.\n• Buying packages does not give immunity from server rules.\n"
+            "• Any chargeback results in a permanent ban and loss of all items.\n• Need help? Open a support ticket.\n• Donations are not allowed mid-raid."
         )
     },
     "extra": {
@@ -209,218 +190,291 @@ RULES = {
             "• TPs cannot be hidden inside enemy render, used to drop into someone else’s base, or placed in a way that bypasses cave/modded entries.\n"
             "• Do not use World Builder volumes, doors, or edits to trap players, hide hitboxes, or create unraidable geometry.\n"
             "• Excessive carpet turrets or spam may be wiped by staff if not cleared by the tribe.\n\n"
-            "**Warning & Strike System**\n\n"
-            "ㆍ **Verbal / Soft Warning** → Logged with Helena\n"
-            "ㆍ **1st Strike** → Official written warning + logged\n"
-            "ㆍ **2nd Strike** → Heavier restriction or temporary ban\n"
-            "ㆍ **3rd Strike** → Long ban or permanent\n\n"
+            "**Warning & Strike System**\nㆍ **Verbal / Soft Warning** → Logged with Helena\nㆍ **1st Strike** → Official written warning + logged\nㆍ **2nd Strike** → Heavier restriction or temporary ban\nㆍ **3rd Strike** → Long ban or permanent\n\n"
             "**Minor** (Soft Warning / Strike 1)\nToxic chat, minor rule bending, ignoring admin once, leaving clutter after leaving tribe\n\n"
             "**Medium** (Strike 1 or 2)\nExcessive griefing, repeated toxicity, exploiting after warning, drama baiting, shop abuse\n\n"
             "**Severe** (Strike 2/3 or instant ban)\nRMT, duping, racism, ban evasion, IRL threats, intentionally crashing the server\n\n"
-            "**Final Note:** Staff decisions are final. Breaking rules may result in warnings, temporary bans, or permanent bans depending on severity."
+            "**Final Note:** Staff decisions are final."
         )
     }
 }
 
 RULES_ES = {
-    "discord": {
-        "title": "💬 Reglas de Discord",
-        "description": (
-            "**1 • Registro de jugadores**\n"
-            "Todos los jugadores activos deben registrar su nombre in-game y el nombre de su tribu en el canal de registro.\n\n"
-            "**2 • Cero tolerancia – Acoso y odio**\n"
-            "Está prohibido el racismo, discurso de odio, discriminación, acoso o toxicidad dirigida por raza, religión, género, sexualidad, nacionalidad o creencias personales.\n\n"
-            "**Escala de castigo:**\n"
-            "• 1ra falta → Mute del server\n"
-            "• 2da falta → Ban temporal de 3 días\n"
-            "• 3ra falta → Ban permanente\n"
-            "El staff puede subir el castigo de inmediato si la falta es grave o se repite.\n\n"
-            "**3 • Uso de canales**\nUsa cada canal para lo que es. Si lo usas mal varias veces, puedes llevar mute u otra sanción.\n\n"
-            "**4 • Conducta y toxicidad**\nEl vacile competitivo está bien, pero el drama, el salt y la toxicidad que dañen la comunidad no se van a tolerar.\n\n"
-            "**5 • Contenido**\nNada de NSFW, contenido explícito, ofensivo o links/imágenes/videos fuera de lugar.\n\n"
-            "**6 • Coordenadas de base**\nNo publiques coordenadas, screenshots de bases ajenas ni info sensible de otra tribu en canales públicos.\n\n"
-            "**7 • Soporte y reportes**\nProblemas del server, reportes y quejas van por ticket. No se discuten en público.\n\n"
-            "**8 • Privacidad**\nEstá prohibido compartir o filtrar datos personales de otros jugadores.\n\n"
-            "**9 • Spam**\nNada de spam, flood, etiquetar de más ni mayúsculas innecesarias.\n\n"
-            "**10 • Reclutamiento**\nNo invites a propósito gente cuyo único plan sea meter drama, acoso o daño al server.\n\n"
-            "**11 • Respeto al staff**\nTrata al staff con respeto. Faltarles el respeto o discutir por discutir no se acepta.\n\n"
-            "**Nota final:** Estas reglas existen para que el server se mantenga competitivo y respetuoso. La decisión del staff es final."
-        )
-    },
-    "general": {
-        "title": "📜 Reglas generales del cluster",
-        "description": (
-            "• Prohibido cheats, exploits o usar mecánicas no intencionadas del juego.\n"
-            "• Prohibido meshear o buildear dentro del mesh.\n"
-            "• Prohibido dupiar items, criaturas o recursos.\n"
-            "• Prohibido box raid. Se puede boxear a un jugador en 1x1, pero los tames tienen que poder recibir daño. (Lo mismo aplica al CS Tek Shield en cualquier Dino Plat saddle)\n"
-            "• Prohibido tunear por debajo de estructuras enemigas para saltarse defensas.\n"
-            "• No dejes criaturas de breed sin atender. Huevos, babies o breed suelto en exceso lo puede borrar el staff.\n"
-            "• Prohibido poner turrets en boats, rafts o criaturas.\n"
-            "• Prohibido insidear. Traicionar a tu tribu o alianza por beneficio propio no está permitido.\n"
-            "• No se pueden dañar estructuras de admin, salvo que estén marcadas como objetivo de raid.\n"
-            "• No se raidea a bobs (déjalo disfrutar, jaja)"
-        )
-    },
-    "tribe": {
-        "title": "👥 Reglas de Tribu y Alianza",
-        "description": (
-            "1. Máximo **6 jugadores** por tribu.\n"
-            "2. Solo se permite **una alianza**.\n"
-            "3. Los aliados pueden ayudar en raids y defensas.\n"
-            "*(Los aliados NO pueden participar en raids contra **tribus pequeñas**. Una tribu pequeña es de **1 a 4 miembros registrados**.)*\n\n"
-            "4. Prohibido tribe cycling o alliance cycling. Tienes que esperar **mínimo 24 horas** antes de entrar a otra tribu o alianza.\n"
-            "5. No se puede cambiar de tribu o alianza durante un raid, ni justo antes, ni justo después.\n"
-            "6. El roster de la tribu tiene que coincidir con el Tribe Registry.\n"
-            "7. Nombre de tribu, jugadores y alianza tienen que ser los mismos en todos los mapas.\n"
-            "8. Prohibido teaming con jugadores o tribus fuera de tu alianza registrada en raids, defensas, scout o PvP.\n"
-            "9. Alianzas temporales o “ayudar a un pana” en PvP cuenta como teaming y no está permitido.\n"
-            "10. Si cambia el nombre de la tribu, los jugadores o la alianza, hay que actualizarlo en el registro."
-        )
-    },
-    "building": {
-        "title": "🏰 Reglas de Building y Bases",
-        "description": (
-            "1. Máximo **3 bases** (1 main) por mapa y **4 TPs**.\n"
-            "2. Cuando un raid termina o se abandona, hay que quitar las estructuras del raid o convertirlas en base real (o avisar a un admin para que limpie el spam).\n"
-            "3. Las cave edits y donaciones **no tienen refund**.\n"
-            "4. Las cuevas modeadas compradas se quitan si pierdes el control de esa cueva/zona. No se reemplazan ni se reembolsan.\n"
-            "5. Las criaturas agresivas en wander tienen que estar dentro de un Dino Leash.\n"
-            "6. El spam que afecte el performance del server hay que quitarlo si el staff lo pide.\n"
-            "7. Se permite algo de structure spam (solo foundations) con medida. Si se pasa, el staff puede wipear el área para bajar el lag."
-        )
-    },
-    "whiteflag": {
-        "title": "🏳️ Protección White Flag",
-        "description": (
-            "1. El White Flag dura **7 días** y no se puede extender.\n"
-            "2. El White Flag solo protege tu **base main**.\n"
-            "3. Con White Flag sí puedes hacer PvP, pero **no puedes participar en raids** hasta que se acabe la protección (o el owner de la tribu la quite).\n"
-            "4. Si rompes las reglas del White Flag, pierdes la protección al momento."
-        )
-    },
-    "pvp": {
-        "title": "⚔️ Reglas de PvP / Raid",
-        "description": (
-            "1. Prohibido third-party raid. Solo pueden participar la tribu/alianza que ataca y la que defiende.\n"
-            "*(Una alianza no puede meterse a raidear **tribus pequeñas**. Una tribu pequeña es de **1 a 4 miembros registrados**.)*\n\n"
-            "2. Los thralls solo se usan para PvE (bosses, explorar, etc.). No se usan para raidear, defender o PvP (tribus de 1-2 pueden pedirle permiso a un admin).\n"
-            "3. Prohibido cannon raid.\n\n"
-            "**4. Reglas del Space Whale**\n"
-            "• No entra al propagator y no se puede bredear.\n"
-            "• Prohibido buildear en la espalda / platform.\n"
-            "• Se pueden ajustar más reglas según cómo se juegue.\n\n"
-            "5. Prohibido volverte totalmente invisible en PvP con habilidades, estructuras o efectos (incluye el burrow del Space Whale y cualquier build que te esconda).\n"
-            "6. Prohibido spamear en FOBs.\n"
-            "7. Los Meks no pueden meshear, salvo para limpiar una estructura mesheada.\n"
-            "8. No se aceptan donaciones a mitad de un raid.\n"
-            "9. Prohibido hacer popcorn, upload, destruir o llevarse loot durante un raid."
-        )
-    },
-    "donations": {
-        "title": "💰 Reglas de Donaciones",
-        "description": (
-            "• **Toda venta es final** — No hay refund cuando ya se entregó (salvo error técnico claro de nuestra parte).\n"
-            "• **Tiempo de entrega** — La mayoría llega en 5–15 minutos. Si en 30 minutos no llega, abre ticket.\n"
-            "• **Un solo personaje** — Lo que compras es para un personaje. No pasa a otra cuenta/char (salvo pérdida del personaje).\n"
-            "• **Prohibido revender** paquetes.\n\n"
-            "**Cave Edits / Entradas custom**\n"
-            "• Quedan permanentes cuando se colocan.\n"
-            "• Tú respondes por dar la ubicación y los detalles correctos.\n"
-            "• No se mueven ni se reembolsan después.\n"
-            "• Abusar de una cave edit (bloquear zonas, griefear, etc.) = se quita + posible sanción.\n\n"
-            "• Asegúrate de estar en el personaje correcto al comprar.\n"
-            "• Comprar no te da inmunidad a las reglas del server.\n"
-            "• Un chargeback = ban permanente y pérdida de todo.\n"
-            "• ¿Problemas con una compra? Abre ticket de soporte.\n"
-            "• No se permiten donaciones a mitad de un raid."
-        )
-    },
-    "extra": {
-        "title": "📌 Reglas extra y sistema de strikes",
-        "description": (
-            "**Reglas extra**\n"
-            "• Prohibido vender bases, criaturas, items, ownership de tribu o servicios por dinero real.\n"
-            "• **Máximo 15 dinos sin cryo por base.** Los dinos en Aggressive, Neutral o Wander tienen que estar en un Dino Leash (**máximo 4 dinos por leash**).\n"
-            "• Las CS Medical Stations solo se usan para healear en **breed**. **No** se usan en raid ni para defender.\n"
-            "• Si defiendes una entrada modeada con un dino, **tienes que estar montado**. No bloquees ni exploits las entradas modeadas con dinos/criaturas.\n"
-            "• Una cuenta main por jugador. Prohibido usar alts para extra slots de tribu, extra White Flags, extra compras de shop o extra presencia en PvP.\n"
-            "• Los TPs no se pueden esconder dentro del render enemigo, usarse para dropear dentro de una base ajena, ni colocarse para saltarse cuevas/entradas modeadas.\n"
-            "• Prohibido usar volumes, puertas o edits de World Builder para trapear jugadores, esconder hitboxes o crear geometría unraidable.\n"
-            "• Si hay carpet de turrets o spam excesivo y la tribu no lo limpia, el staff puede wipear el área.\n\n"
-            "**Sistema de warnings y strikes**\n\n"
-            "ㆍ **Warning verbal / suave** → Queda logeado en Helena\n"
-            "ㆍ **1er Strike** → Warning escrito + log\n"
-            "ㆍ **2do Strike** → Restricción más dura o ban temporal\n"
-            "ㆍ **3er Strike** → Ban largo o permanente\n\n"
-            "**Leve** (Warning suave / Strike 1)\nChat tóxico, doblar una regla un poco, ignorar al admin una vez, dejar basura al salir de la tribu\n\n"
-            "**Media** (Strike 1 o 2)\nGrief excesivo, toxicidad repetida, exploit después de warning, armar drama, abusar del shop\n\n"
-            "**Grave** (Strike 2/3 o ban directo)\nRMT, dupeo, racismo, evadir ban, amenazas IRL, tirar el server a propósito\n\n"
-            "**Nota final:** La decisión del staff es final. Romper reglas puede dar warning, ban temporal o ban permanente según la gravedad."
-        )
-    }
+    "discord": {"title": "💬 Reglas de Discord", "description": RULES["discord"]["description"]},
+    "general": {"title": "📜 Reglas generales del cluster", "description": (
+        "• Prohibido cheats, exploits o usar mecánicas no intencionadas del juego.\n"
+        "• Prohibido meshear o buildear dentro del mesh.\n• Prohibido dupiar items, criaturas o recursos.\n"
+        "• Prohibido box raid. Se puede boxear a un jugador en 1x1, pero los tames tienen que poder recibir daño. (Lo mismo aplica al CS Tek Shield en cualquier Dino Plat saddle)\n"
+        "• Prohibido tunear por debajo de estructuras enemigas para saltarse defensas.\n"
+        "• No dejes criaturas de breed sin atender. Huevos, babies o breed suelto en exceso lo puede borrar el staff.\n"
+        "• Prohibido poner turrets en boats, rafts o criaturas.\n• Prohibido insidear.\n"
+        "• No se pueden dañar estructuras de admin, salvo que estén marcadas como objetivo de raid.\n"
+        "• No se raidea a bobs (déjalo disfrutar, jaja)"
+    )},
+    "tribe": {"title": "👥 Reglas de Tribu y Alianza", "description": (
+        "1. Máximo **6 jugadores** por tribu.\n2. Solo se permite **una alianza**.\n"
+        "3. Los aliados pueden ayudar en raids y defensas.\n*(Los aliados NO pueden participar en raids contra **tribus pequeñas**. Una tribu pequeña es de **1 a 4 miembros registrados**.)*\n\n"
+        "4. Prohibido tribe cycling o alliance cycling. Espera **mínimo 24 horas** antes de entrar a otra tribu o alianza.\n"
+        "5. No se puede cambiar de tribu o alianza durante un raid, ni justo antes, ni justo después.\n"
+        "6. El roster tiene que coincidir con el Tribe Registry.\n7. Nombre de tribu, jugadores y alianza iguales en todos los mapas.\n"
+        "8. Prohibido teaming fuera de tu alianza registrada.\n9. “Ayudar a un pana” en PvP cuenta como teaming.\n"
+        "10. Si cambia el nombre de la tribu, los jugadores o la alianza, actualízalo en el registro."
+    )},
+    "building": {"title": "🏰 Reglas de Building y Bases", "description": (
+        "1. Máximo **3 bases** (1 main) por mapa y **4 TPs**.\n"
+        "2. Cuando un raid termina o se abandona, quita las estructuras del raid o conviértelas en base real (o avisa a un admin).\n"
+        "3. Cave edits y donaciones **no tienen refund**.\n"
+        "4. Las cuevas modeadas compradas se quitan si pierdes el control de esa zona. No se reemplazan ni se reembolsan.\n"
+        "5. Criaturas agresivas en wander deben estar en un Dino Leash.\n"
+        "6. El spam que afecte el server hay que quitarlo si el staff lo pide.\n"
+        "7. Se permite algo de structure spam (solo foundations) con medida."
+    )},
+    "whiteflag": {"title": "🏳️ Protección White Flag", "description": (
+        "1. El White Flag dura **7 días** y no se puede extender.\n2. Solo protege tu **base main**.\n"
+        "3. Con White Flag sí puedes PvP, pero **no puedes participar en raids** hasta que se acabe (o el owner lo quite).\n"
+        "4. Si rompes las reglas, pierdes la protección al momento."
+    )},
+    "pvp": {"title": "⚔️ Reglas de PvP / Raid", "description": (
+        "1. Prohibido third-party raid. Solo atacantes y defensores.\n"
+        "*(Una alianza no puede raidear **tribus pequeñas**. Tribu pequeña = **1 a 4 miembros registrados**.)*\n\n"
+        "2. Los thralls solo para PvE. No para raid/defensa/PvP (tribus de 1-2 pueden pedir permiso a admin).\n"
+        "3. Prohibido cannon raid.\n\n**4. Space Whale**\n• No entra al propagator y no se bredea.\n• Prohibido buildear en la espalda/platform.\n\n"
+        "5. Prohibido volverte invisible en PvP.\n6. Prohibido spam en FOBs.\n7. Meks no meshean salvo para limpiar mesh.\n"
+        "8. No donaciones a mitad de raid.\n9. Prohibido popcorn / upload / destruir o llevarse loot durante un raid."
+    )},
+    "harvest": {"title": "🌾 Reglas de Custom Harvest Zones", "description": (
+        "「-✦ Custom Harvest Zones ✦-」\n\n"
+        "• Prohibido buildear dentro de un rango de **30000 x 30000** de la zona.\n"
+        "• TPs / FOBs sí se permiten dentro de un rango de **35000 x 35000**, pero **sin turrets**.\n"
+        "• **El PvP está permitido** en estas zonas."
+    )},
+    "donations": {"title": "💰 Reglas de Donaciones", "description": (
+        "• **Toda venta es final.**\n• Entrega en 5–15 min. Si no llega en 30 min, abre ticket.\n"
+        "• Lo comprado es para **un personaje**.\n• Prohibido revender.\n\n"
+        "**Cave Edits** permanentes. Tú das la ubicación correcta. No hay move/refund. Abusarlas = se quitan + sanción.\n"
+        "• Compra no da inmunidad a las reglas.\n• Chargeback = ban permanente.\n• No donaciones mid-raid."
+    )},
+    "extra": {"title": "📌 Reglas extra y strikes", "description": (
+        "• Prohibido vender bases/dinos/items/tribu por dinero real.\n"
+        "• **Máximo 15 dinos sin cryo por base.** Aggressive/Neutral/Wander en Dino Leash (**máx 4 por leash**).\n"
+        "• CS Medical Stations solo para heal en **breed**, no en raid/defensa.\n"
+        "• Si defiendes una entrada modeada con dino, **tienes que estar montado**.\n"
+        "• Una cuenta main por jugador. No alts para extra slots, White Flags, shop o PvP.\n"
+        "• TPs no se esconden en render enemigo ni se usan para dropear en base ajena.\n"
+        "• Prohibido usar World Builder para trapear, esconder hitboxes o hacer unraidable.\n"
+        "• Carpet turrets / spam excesivo puede ser wipeado por staff.\n\n"
+        "ㆍ Warning verbal → Helena\nㆍ 1er Strike → warning escrito\nㆍ 2do Strike → restricción o ban temporal\nㆍ 3er Strike → ban largo o permanente\n\n"
+        "**Grave:** RMT, dupeo, racismo, evadir ban, amenazas IRL, tirar el server.\nLa decisión del staff es final."
+    )},
+}
+RULES_ES["discord"]["description"] = (
+    "**1 • Registro**\nRegistra tu nombre in-game y el de tu tribu.\n\n"
+    "**2 • Cero tolerancia**\nNada de racismo, odio, acoso o discriminación.\n"
+    "1ra falta → Mute • 2da → Ban 3 días • 3ra → Ban permanente.\n\n"
+    "**3 • Canales**\nUsa cada canal para lo que es.\n**4 • Conducta**\nEl vacile está bien, el drama tóxico no.\n"
+    "**5 • Contenido**\nNada NSFW/ofensivo.\n**6 • Coordenadas**\nNo publiques bases ajenas.\n"
+    "**7 • Reportes**\nTodo por ticket.\n**8 • Privacidad**\nNada de datos personales.\n"
+    "**9 • Spam**\nProhibido.\n**10 • Reclutamiento**\nNo invites gente solo para dañar el server.\n"
+    "**11 • Staff**\nRespeta al staff. La decisión del staff es final."
+)
+
+RULES_FR = {
+    "discord": {"title": "💬 Règles Discord", "description": (
+        "**1 • Inscription**\nTous les joueurs actifs doivent enregistrer leur nom in-game et le nom de leur tribu.\n\n"
+        "**2 • Tolérance zéro**\nRacisme, discours de haine, discrimination, harcèlement ou toxicité ciblée sont interdits.\n"
+        "1re faute → Mute • 2e → Ban 3 jours • 3e → Ban permanent.\n\n"
+        "**3 • Salons**\nUtilise chaque salon pour ce qu’il sert.\n**4 • Comportement**\nLe banter compétitif est ok, pas le drama toxique.\n"
+        "**5 • Contenu**\nPas de NSFW / contenu offensant.\n**6 • Coordonnées**\nInterdit de poster les coords ou screens d’une base ennemie.\n"
+        "**7 • Support**\nTout passe par ticket.\n**8 • Vie privée**\nInterdit de leak des infos perso.\n"
+        "**9 • Spam**\nInterdit.\n**10 • Recrutement**\nN’invite pas des gens juste pour casser le serveur.\n"
+        "**11 • Staff**\nRespecte le staff. La décision du staff est finale."
+    )},
+    "general": {"title": "📜 Règles générales du cluster", "description": (
+        "• Pas de cheat, exploit ou mécanique non prévue.\n• Pas de mesh / build dans le mesh.\n• Pas de dupe.\n"
+        "• Pas de box raid. Un joueur peut être boxé en 1x1, mais les tames doivent pouvoir prendre des dégâts. (Idem pour le CS Tek Shield sur plat saddle)\n"
+        "• Pas de tunnel sous les structures ennemies.\n• Ne laisse pas le breed sans surveillance.\n"
+        "• Pas de turrets sur boats, rafts ou dinos.\n• Pas d’inside.\n• Pas de dégâts sur les structures admin.\n• Pas de raid sur les bobs."
+    )},
+    "tribe": {"title": "👥 Règles Tribu & Alliance", "description": (
+        "1. Max **6 joueurs** par tribu.\n2. Une seule alliance.\n"
+        "3. Les alliés peuvent aider en raid/défense.\n*(Les alliés ne peuvent pas raid les **petites tribus** = **1 à 4 membres enregistrés**.)*\n\n"
+        "4. Pas de tribe/alliance cycling. **24h** d’attente minimum.\n5. Pas de changement pendant / juste avant / juste après un raid.\n"
+        "6. Le roster doit matcher le Tribe Registry.\n7. Même nom/tribu/alliance sur toutes les maps.\n"
+        "8. Pas de teaming hors alliance.\n9. “Aider un pote” en PvP = teaming.\n10. Tout changement doit être update dans le registre."
+    )},
+    "building": {"title": "🏰 Règles Building & Bases", "description": (
+        "1. Max **3 bases** (1 main) par map et **4 TPs**.\n"
+        "2. Après un raid, retire les structures ou transforme-les en vraie base (ou préviens un admin).\n"
+        "3. Cave edits / donations **non remboursables**.\n4. Une cave moddée achetée est retirée si tu perds la zone. Pas de remplacement.\n"
+        "5. Dinos agressifs en wander = Dino Leash.\n6. Le spam qui lag le serveur doit être retiré si le staff le demande."
+    )},
+    "whiteflag": {"title": "🏳️ Protection White Flag", "description": (
+        "1. White Flag = **7 jours**, non prolongeable.\n2. Protège uniquement ta **base main**.\n"
+        "3. PvP autorisé, mais **pas de participation aux raids** tant que le flag est actif.\n"
+        "4. Enfreindre les règles = perte immédiate de la protection."
+    )},
+    "pvp": {"title": "⚔️ Règles PvP / Raid", "description": (
+        "1. Pas de third-party raid.\n*(Une alliance ne raid pas les **petites tribus** = **1–4 membres**.)*\n\n"
+        "2. Thralls = PvE seulement.\n3. Pas de cannon raid.\n\n**4. Space Whale**\n• Pas de propagator / pas de breed.\n• Pas de build sur le dos/platform.\n\n"
+        "5. Invisibilité totale en PvP interdite.\n6. Pas de spam dans les FOBs.\n7. Mek : pas de mesh sauf pour clear du mesh.\n"
+        "8. Pas de donations mid-raid.\n9. Pas de popcorn / upload / destruction ou vol de loot pendant un raid."
+    )},
+    "harvest": {"title": "🌾 Règles Custom Harvest Zones", "description": (
+        "「-✦ Custom Harvest Zones ✦-」\n\n"
+        "• Aucun building dans une zone de **30000 x 30000** autour de la harvest zone.\n"
+        "• TPs / FOBs autorisés dans une zone de **35000 x 35000**, mais **aucune turret**.\n"
+        "• **Le PvP est autorisé** dans ces zones."
+    )},
+    "donations": {"title": "💰 Règles Donations", "description": (
+        "• Toute vente est finale.\n• Livraison 5–15 min. Ticket si rien en 30 min.\n• Un seul personnage.\n• Pas de revente.\n"
+        "• Cave edits permanentes, pas de refund/move.\n• Un achat ne donne aucune immunité.\n• Chargeback = ban permanent.\n• Pas de donation mid-raid."
+    )},
+    "extra": {"title": "📌 Règles extra & strikes", "description": (
+        "• Interdit de vendre bases/dinos/items/tribu pour de l’argent réel.\n"
+        "• **Max 15 dinos non cryo par base.** Aggressive/Neutral/Wander dans un Dino Leash (**max 4 par leash**).\n"
+        "• CS Medical Stations = heal de **breed** uniquement, pas en raid/défense.\n"
+        "• Pour défendre une entrée moddée avec un dino, tu dois **être monté dessus**.\n"
+        "• Un compte main par joueur. Pas d’alts pour slots, White Flags, shop ou PvP extra.\n"
+        "• TPs pas cachés dans le render ennemi / pas pour drop dans une base.\n"
+        "• World Builder : pas de trap, hitbox cachée ou géométrie unraidable.\n"
+        "• Carpet turrets / spam excessif = wipe staff possible.\n\n"
+        "Warning verbal → Helena • 1er strike → warning écrit • 2e → restriction/ban tempo • 3e → long ban / perma.\nDécision du staff finale."
+    )},
 }
 
+RULES_DE = {
+    "discord": {"title": "💬 Discord-Regeln", "description": (
+        "**1 • Registrierung**\nJeder aktive Spieler muss Ingame-Name und Tribe-Name im Register-Channel angeben.\n\n"
+        "**2 • Null Toleranz**\nRassismus, Hassrede, Diskriminierung, Belästigung oder gezielte Toxizität sind verboten.\n"
+        "1. Verstoß → Mute • 2. → 3-Tage-Ban • 3. → Permanenter Ban.\n\n"
+        "**3 • Channels**\nNutze Channels nur für ihren Zweck.\n**4 • Verhalten**\nCompetitives Banter ist ok, toxisches Drama nicht.\n"
+        "**5 • Content**\nKein NSFW / anstößiger Content.\n**6 • Koordinaten**\nKeine Base-Coords oder Screenshots fremder Bases öffentlich posten.\n"
+        "**7 • Support**\nAlles über Tickets.\n**8 • Privatsphäre**\nKeine persönlichen Daten leaken.\n"
+        "**9 • Spam**\nVerboten.\n**10 • Recruiting**\nKeine Leute einladen, deren Ziel nur Drama/Schaden ist.\n"
+        "**11 • Staff**\nRespektiert den Staff. Staff-Entscheidung ist final."
+    )},
+    "general": {"title": "📜 Allgemeine Cluster-Regeln", "description": (
+        "• Kein Cheaten, Exploiten oder unbeabsichtigte Mechanics.\n• Kein Meshen / Bauen im Mesh.\n• Kein Dupen.\n"
+        "• Kein Box-Raid. Spieler dürfen 1x1 geboxt werden, Tames müssen aber damagebar bleiben. (Gilt auch für CS Tek Shield auf Plat-Saddles)\n"
+        "• Kein Tunneln unter gegnerischen Structures.\n• Breeding nicht unbeaufsichtigt lassen.\n"
+        "• Keine Turrets auf Boats, Rafts oder Dinos.\n• Kein Insiden.\n• Keine Admin-Structures zerstören.\n• Kein Bob-Raiden."
+    )},
+    "tribe": {"title": "👥 Tribe- & Alliance-Regeln", "description": (
+        "1. Max **6 Spieler** pro Tribe.\n2. Nur **eine Alliance**.\n"
+        "3. Allies dürfen bei Raid/Defense helfen.\n*(Allies dürfen **Small Tribes** nicht raid-en. Small Tribe = **1–4 registrierte Member**.)*\n\n"
+        "4. Kein Tribe-/Alliance-Cycling. Mindestens **24 Stunden** warten.\n"
+        "5. Kein Wechsel während / direkt vor / direkt nach einem Raid.\n"
+        "6. Roster muss zum Tribe Registry passen.\n7. Gleicher Tribe-/Alliance-Name auf allen Maps.\n"
+        "8. Kein Teaming außerhalb der Alliance.\n9. „Nur einem Bro helfen“ im PvP = Teaming.\n10. Änderungen müssen im Register geupdatet werden."
+    )},
+    "building": {"title": "🏰 Building- & Base-Regeln", "description": (
+        "1. Max **3 Bases** (1 Main) pro Map und **4 TPs**.\n"
+        "2. Nach einem Raid Raid-Structures entfernen oder in eine echte Base umwandeln (oder Admin Bescheid geben).\n"
+        "3. Cave Edits / Donations **nicht erstattbar**.\n4. Gekaufte Mod-Caves werden entfernt, wenn du die Zone verlierst. Kein Replace/Refund.\n"
+        "5. Aggressive Wander-Dinos müssen im Dino Leash sein.\n6. Performance-Spam muss auf Staff-Anweisung weg."
+    )},
+    "whiteflag": {"title": "🏳️ White-Flag-Schutz", "description": (
+        "1. White Flag gilt **7 Tage** und kann nicht verlängert werden.\n2. Schützt nur die **Main Base**.\n"
+        "3. PvP ist erlaubt, aber **keine Raid-Teilnahme**, solange der Flag aktiv ist.\n"
+        "4. Regelbruch = sofortiger Verlust des Schutzes."
+    )},
+    "pvp": {"title": "⚔️ PvP- / Raid-Regeln", "description": (
+        "1. Kein Third-Party-Raid.\n*(Alliances dürfen **Small Tribes** nicht raid-en. Small Tribe = **1–4 Member**.)*\n\n"
+        "2. Thralls nur PvE.\n3. Kein Cannon-Raid.\n\n**4. Space Whale**\n• Nicht im Propagator / nicht breedbar.\n• Kein Build auf Rücken/Platform.\n\n"
+        "5. Volle Unsichtbarkeit im PvP verboten.\n6. Kein Spam in FOBs.\n7. Meks dürfen nicht meshen, außer zum Clearen von Mesh.\n"
+        "8. Keine Donations mitten im Raid.\n9. Kein Popcorn / Upload / Loot zerstören oder mitnehmen während eines Raids."
+    )},
+    "harvest": {"title": "🌾 Custom-Harvest-Zone-Regeln", "description": (
+        "「-✦ Custom Harvest Zones ✦-」\n\n"
+        "• Kein Building innerhalb von **30000 x 30000** um die Harvest Zone.\n"
+        "• TPs / FOBs sind innerhalb von **35000 x 35000** erlaubt, aber **keine Turrets**.\n"
+        "• **PvP ist in diesen Zonen erlaubt.**"
+    )},
+    "donations": {"title": "💰 Donations-Regeln", "description": (
+        "• Alle Käufe sind final.\n• Lieferung 5–15 Min. Ticket nach 30 Min.\n• Nur für einen Character.\n• Kein Weiterverkauf.\n"
+        "• Cave Edits sind permanent, kein Move/Refund.\n• Kaufen gibt keine Regel-Immunität.\n• Chargeback = Permaban.\n• Keine Donation mid-raid."
+    )},
+    "extra": {"title": "📌 Extra-Regeln & Strikes", "description": (
+        "• Kein Verkauf von Bases/Dinos/Items/Tribe für Echtgeld.\n"
+        "• **Max 15 uncryo’te Dinos pro Base.** Aggressive/Neutral/Wander im Dino Leash (**max 4 pro Leash**).\n"
+        "• CS Medical Stations nur zum Healen beim **Breed**, nicht im Raid/Defense.\n"
+        "• Modded Entry mit Dino verteidigen = du musst **drauf sitzen**.\n"
+        "• Ein Main-Account pro Spieler. Keine Alts für extra Slots, White Flags, Shop oder PvP.\n"
+        "• TPs nicht im Enemy-Render verstecken / nicht in fremde Bases droppen.\n"
+        "• World Builder nicht für Traps, versteckte Hitboxes oder unraidable Geometry.\n"
+        "• Zu viele Carpet-Turrets / Spam kann der Staff wipen.\n\n"
+        "Verbal Warning → Helena • 1. Strike → schriftliche Warnung • 2. Strike → Restriction/Tempban • 3. Strike → Long Ban/Perm.\nStaff-Entscheidung ist final."
+    )},
+}
 
-class InfoSelect(discord.ui.Select):
-    def __init__(self):
-        options = [
-            discord.SelectOption(label="Custom Drops", value="custom_drops", emoji="📦"),
-            discord.SelectOption(label="Orbital Drops", value="orbital_drops", emoji="🛰️"),
-            discord.SelectOption(label="Modded Crafts", value="modded_crafts", emoji="🛠️"),
-            discord.SelectOption(label="Bosses", value="bosses", emoji="🦖"),
-            discord.SelectOption(label="Mods List", value="mods", emoji="📜"),
-            discord.SelectOption(label="Player & Dino Stats", value="stats", emoji="📊"),
-        ]
-        super().__init__(placeholder="Choose a category...", options=options, custom_id="glacial_info_select")
-
-    async def callback(self, interaction: discord.Interaction):
-        data = INFO[self.values[0]]
-        embed = discord.Embed(title=data["title"], description=data["description"], color=GLACIAL_COLOR)
-        embed.set_footer(text="GA50X Cluster Info Bot")
-        await interaction.response.send_message(embed=embed, ephemeral=True)
+RULE_OPTIONS_EN = [
+    discord.SelectOption(label="Discord Rules", value="discord", emoji="💬"),
+    discord.SelectOption(label="General Rules", value="general", emoji="📜"),
+    discord.SelectOption(label="Tribe & Alliance", value="tribe", emoji="👥"),
+    discord.SelectOption(label="Building & Base", value="building", emoji="🏰"),
+    discord.SelectOption(label="White Flag", value="whiteflag", emoji="🏳️"),
+    discord.SelectOption(label="PvP / Raid Rules", value="pvp", emoji="⚔️"),
+    discord.SelectOption(label="Harvest Zones", value="harvest", emoji="🌾"),
+    discord.SelectOption(label="Donations Rules", value="donations", emoji="💰"),
+    discord.SelectOption(label="Extra + Strikes", value="extra", emoji="📌"),
+]
 
 
-class RulesSelect(discord.ui.Select):
-    def __init__(self):
-        options = [
-            discord.SelectOption(label="Discord Rules", value="discord", emoji="💬"),
-            discord.SelectOption(label="General Rules", value="general", emoji="📜"),
-            discord.SelectOption(label="Tribe & Alliance", value="tribe", emoji="👥"),
-            discord.SelectOption(label="Building & Base", value="building", emoji="🏰"),
-            discord.SelectOption(label="White Flag", value="whiteflag", emoji="🏳️"),
-            discord.SelectOption(label="PvP / Raid Rules", value="pvp", emoji="⚔️"),
-            discord.SelectOption(label="Donations Rules", value="donations", emoji="💰"),
-            discord.SelectOption(label="Extra + Strikes", value="extra", emoji="📌"),
-        ]
-        super().__init__(placeholder="Choose a rules category...", options=options, custom_id="glacial_rules_select")
+def make_select(data, custom_id, placeholder, footer, options):
+    class DynSelect(discord.ui.Select):
+        def __init__(self):
+            super().__init__(placeholder=placeholder, options=options, custom_id=custom_id)
 
-    async def callback(self, interaction: discord.Interaction):
-        data = RULES[self.values[0]]
-        embed = discord.Embed(title=data["title"], description=data["description"], color=GLACIAL_COLOR)
-        embed.set_footer(text="GA50X • Rules")
-        await interaction.response.send_message(embed=embed, ephemeral=True)
+        async def callback(self, interaction: discord.Interaction):
+            item = data[self.values[0]]
+            embed = discord.Embed(title=item["title"], description=item["description"], color=GLACIAL_COLOR)
+            embed.set_footer(text=footer)
+            await interaction.response.send_message(embed=embed, ephemeral=True)
+    return DynSelect
 
 
-class RulesEsSelect(discord.ui.Select):
-    def __init__(self):
-        options = [
-            discord.SelectOption(label="Reglas de Discord", value="discord", emoji="💬"),
-            discord.SelectOption(label="Reglas generales", value="general", emoji="📜"),
-            discord.SelectOption(label="Tribu y Alianza", value="tribe", emoji="👥"),
-            discord.SelectOption(label="Building y Bases", value="building", emoji="🏰"),
-            discord.SelectOption(label="White Flag", value="whiteflag", emoji="🏳️"),
-            discord.SelectOption(label="PvP / Raid", value="pvp", emoji="⚔️"),
-            discord.SelectOption(label="Donaciones", value="donations", emoji="💰"),
-            discord.SelectOption(label="Extra + Strikes", value="extra", emoji="📌"),
-        ]
-        super().__init__(placeholder="Elige una categoría...", options=options, custom_id="glacial_rules_es_select")
-
-    async def callback(self, interaction: discord.Interaction):
-        data = RULES_ES[self.values[0]]
-        embed = discord.Embed(title=data["title"], description=data["description"], color=GLACIAL_COLOR)
-        embed.set_footer(text="GA50X • Reglas")
-        await interaction.response.send_message(embed=embed, ephemeral=True)
+InfoSelect = make_select(INFO, "glacial_info_select", "Choose a category...", "GA50X Cluster Info Bot", [
+    discord.SelectOption(label="Custom Drops", value="custom_drops", emoji="📦"),
+    discord.SelectOption(label="Orbital Drops", value="orbital_drops", emoji="🛰️"),
+    discord.SelectOption(label="Modded Crafts", value="modded_crafts", emoji="🛠️"),
+    discord.SelectOption(label="Bosses", value="bosses", emoji="🦖"),
+    discord.SelectOption(label="Mods List", value="mods", emoji="📜"),
+    discord.SelectOption(label="Player & Dino Stats", value="stats", emoji="📊"),
+])
+RulesSelect = make_select(RULES, "glacial_rules_select", "Choose a rules category...", "GA50X • Rules", RULE_OPTIONS_EN)
+RulesEsSelect = make_select(RULES_ES, "glacial_rules_es_select", "Elige una categoría...", "GA50X • Reglas", [
+    discord.SelectOption(label="Reglas de Discord", value="discord", emoji="💬"),
+    discord.SelectOption(label="Reglas generales", value="general", emoji="📜"),
+    discord.SelectOption(label="Tribu y Alianza", value="tribe", emoji="👥"),
+    discord.SelectOption(label="Building y Bases", value="building", emoji="🏰"),
+    discord.SelectOption(label="White Flag", value="whiteflag", emoji="🏳️"),
+    discord.SelectOption(label="PvP / Raid", value="pvp", emoji="⚔️"),
+    discord.SelectOption(label="Harvest Zones", value="harvest", emoji="🌾"),
+    discord.SelectOption(label="Donaciones", value="donations", emoji="💰"),
+    discord.SelectOption(label="Extra + Strikes", value="extra", emoji="📌"),
+])
+RulesFrSelect = make_select(RULES_FR, "glacial_rules_fr_select", "Choisis une catégorie...", "GA50X • Règles", [
+    discord.SelectOption(label="Règles Discord", value="discord", emoji="💬"),
+    discord.SelectOption(label="Règles générales", value="general", emoji="📜"),
+    discord.SelectOption(label="Tribu & Alliance", value="tribe", emoji="👥"),
+    discord.SelectOption(label="Building & Bases", value="building", emoji="🏰"),
+    discord.SelectOption(label="White Flag", value="whiteflag", emoji="🏳️"),
+    discord.SelectOption(label="PvP / Raid", value="pvp", emoji="⚔️"),
+    discord.SelectOption(label="Harvest Zones", value="harvest", emoji="🌾"),
+    discord.SelectOption(label="Donations", value="donations", emoji="💰"),
+    discord.SelectOption(label="Extra + Strikes", value="extra", emoji="📌"),
+])
+RulesDeSelect = make_select(RULES_DE, "glacial_rules_de_select", "Kategorie wählen...", "GA50X • Regeln", [
+    discord.SelectOption(label="Discord-Regeln", value="discord", emoji="💬"),
+    discord.SelectOption(label="Allgemeine Regeln", value="general", emoji="📜"),
+    discord.SelectOption(label="Tribe & Alliance", value="tribe", emoji="👥"),
+    discord.SelectOption(label="Building & Bases", value="building", emoji="🏰"),
+    discord.SelectOption(label="White Flag", value="whiteflag", emoji="🏳️"),
+    discord.SelectOption(label="PvP / Raid", value="pvp", emoji="⚔️"),
+    discord.SelectOption(label="Harvest Zones", value="harvest", emoji="🌾"),
+    discord.SelectOption(label="Donations", value="donations", emoji="💰"),
+    discord.SelectOption(label="Extra + Strikes", value="extra", emoji="📌"),
+])
 
 
 class InfoView(discord.ui.View):
@@ -441,6 +495,18 @@ class RulesEsView(discord.ui.View):
         self.add_item(RulesEsSelect())
 
 
+class RulesFrView(discord.ui.View):
+    def __init__(self):
+        super().__init__(timeout=None)
+        self.add_item(RulesFrSelect())
+
+
+class RulesDeView(discord.ui.View):
+    def __init__(self):
+        super().__init__(timeout=None)
+        self.add_item(RulesDeSelect())
+
+
 intents = discord.Intents.default()
 bot = commands.Bot(command_prefix="!", intents=intents)
 
@@ -450,6 +516,8 @@ async def on_ready():
     bot.add_view(InfoView())
     bot.add_view(RulesView())
     bot.add_view(RulesEsView())
+    bot.add_view(RulesFrView())
+    bot.add_view(RulesDeView())
     print(f"Logged in as {bot.user}")
     try:
         synced = await bot.tree.sync()
@@ -463,44 +531,45 @@ async def on_ready():
 async def setup_panel(interaction: discord.Interaction):
     embed = discord.Embed(
         title="❄️ GA50X CLUSTER INFO",
-        description=(
-            "**INFO UPDATES CONSTANTLY**\n\n"
-            "Click the dropdown below to view detailed server information!\n\n"
-            "**Maps:** The Island • The Center • Ragnarok • Aberration • Extinction • Valguero • Astraeos • Lost Colony • Genesis Part 1"
-        ),
+        description="Click the dropdown below to view server information.",
         color=GLACIAL_COLOR
     )
-    embed.set_footer(text="GA50X Cluster Info Bot")
     await interaction.response.send_message(embed=embed, view=InfoView())
 
 
-@bot.tree.command(name="rules", description="Post the Cluster Rules panel (English)")
+@bot.tree.command(name="rules", description="Post the rules panel (English)")
 @app_commands.checks.has_permissions(administrator=True)
 async def rules(interaction: discord.Interaction):
-    embed = discord.Embed(
-        title="❄️ GA50X RULES",
-        description="Click the dropdown below to view the different rule categories.\n\nPlease read carefully.",
-        color=GLACIAL_COLOR
-    )
-    embed.set_footer(text="GA50X • Staff decisions are final")
+    embed = discord.Embed(title="❄️ GA50X RULES", description="Choose a category below.", color=GLACIAL_COLOR)
     await interaction.response.send_message(embed=embed, view=RulesView())
 
 
 @bot.tree.command(name="rules_es", description="Publicar el panel de reglas en Español")
 @app_commands.checks.has_permissions(administrator=True)
 async def rules_es(interaction: discord.Interaction):
-    embed = discord.Embed(
-        title="❄️ GA50X REGLAS",
-        description="Usa el menú de abajo para ver cada categoría de reglas.\n\nLéelas con cuidado.",
-        color=GLACIAL_COLOR
-    )
-    embed.set_footer(text="GA50X • La decisión del staff es final")
+    embed = discord.Embed(title="❄️ GA50X REGLAS", description="Elige una categoría abajo.", color=GLACIAL_COLOR)
     await interaction.response.send_message(embed=embed, view=RulesEsView())
+
+
+@bot.tree.command(name="rules_fr", description="Publier le panneau des règles en Français")
+@app_commands.checks.has_permissions(administrator=True)
+async def rules_fr(interaction: discord.Interaction):
+    embed = discord.Embed(title="❄️ GA50X RÈGLES", description="Choisis une catégorie ci-dessous.", color=GLACIAL_COLOR)
+    await interaction.response.send_message(embed=embed, view=RulesFrView())
+
+
+@bot.tree.command(name="rules_de", description="Regeln-Panel auf Deutsch posten")
+@app_commands.checks.has_permissions(administrator=True)
+async def rules_de(interaction: discord.Interaction):
+    embed = discord.Embed(title="❄️ GA50X REGELN", description="Wähle unten eine Kategorie.", color=GLACIAL_COLOR)
+    await interaction.response.send_message(embed=embed, view=RulesDeView())
 
 
 @setup_panel.error
 @rules.error
 @rules_es.error
+@rules_fr.error
+@rules_de.error
 async def permission_error(interaction: discord.Interaction, error):
     if isinstance(error, app_commands.MissingPermissions):
         await interaction.response.send_message("You need Administrator permission.", ephemeral=True)
