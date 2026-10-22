@@ -118,7 +118,7 @@ RULES = {
             "1. Maximum tribe size is **6 players**.\n2. Only **one alliance** is permitted.\n"
             "3. Alliance members may assist in raids and defenses.\n*(Allies cannot participate in raids on **small tribes**. A small tribe is **1–4 registered members**.)*\n\n"
             "4. No tribe cycling or alliance cycling. A minimum **24-hour waiting period** is required before joining a new tribe or alliance.\n"
-            "5. Tribe or alliance changes may not occur during, immediately before, or immediately after a raid.\n"
+            "5. Tribe or alliance changes may not occur during, immediately before, or immediately after a raid. A **24-hour wait** is required after a raid ends before any tribe or alliance change.\n"
             "6. Tribe rosters must match the Tribe Registry.\n7. Tribe names, players, and alliances must be the same across all maps.\n"
             "8. No teaming with players or tribes outside of your registered alliance during raids, defenses, scouting, or PvP.\n"
             "9. Temporary alliances or “helping friends” during PvP is considered teaming and is not allowed.\n"
@@ -167,6 +167,14 @@ RULES = {
             "• **PvP is allowed** in these zones."
         )
     },
+    "rathole": {
+        "title": "🕳️ Rat Hole Rules",
+        "description": (
+            "• Building in known OP rat holes is strictly prohibited. This includes spots that are extremely hard or impossible to properly raid (such as the **Peli** rat hole and any similar mesh/underwater/tiny crevice spots).\n\n"
+            "• Any structures placed in a banned rat hole will be wiped by staff. Repeat offenders will receive a strike.\n\n"
+            "• If you are unsure whether a spot counts as a rat hole, ask staff **before** building."
+        )
+    },
     "donations": {
         "title": "💰 Donations Rules",
         "description": (
@@ -183,8 +191,8 @@ RULES = {
         "description": (
             "**Extra Rules**\n"
             "• Selling bases, creatures, items, tribe ownership, or services for real-world money is strictly prohibited.\n"
-            "• **Max 15 uncryo’d dinos per base.** Dinos set to Aggressive, Neutral, or Wandering must be contained within a Dino Leash (**max 4 dinos per leash**).\n"
-            "• CS Medical Stations may only be used for healing during **breeding**. They are **not** allowed during raids or defending.\n"
+            "• **Max 20 uncryo’d dinos per base.** Dinos set to Aggressive, Neutral, or Wandering must be contained within a Dino Leash (**max 4 dinos per leash**).\n"
+            "• **CS Medical Stations** and **Home Sweet Home** may only be used for healing during **breeding**. They are **not** allowed during raids or defending.\n"
             "• If you are defending a modded entry with a dino, you **must be riding the dino**. Do not block or exploit modded entries with dinos/creatures.\n"
             "• One main account per player. Alts are not allowed for extra tribe slots, extra White Flags, extra shop purchases, or extra PvP presence.\n"
             "• TPs cannot be hidden inside enemy render, used to drop into someone else’s base, or placed in a way that bypasses cave/modded entries.\n"
@@ -200,83 +208,117 @@ RULES = {
 }
 
 RULES_ES = {
-    "discord": {"title": "💬 Reglas de Discord", "description": RULES["discord"]["description"]},
-    "general": {"title": "📜 Reglas generales del cluster", "description": (
-        "• Prohibido cheats, exploits o usar mecánicas no intencionadas del juego.\n"
-        "• Prohibido meshear o buildear dentro del mesh.\n• Prohibido dupiar items, criaturas o recursos.\n"
-        "• Prohibido box raid. Se puede boxear a un jugador en 1x1, pero los tames tienen que poder recibir daño. (Lo mismo aplica al CS Tek Shield en cualquier Dino Plat saddle)\n"
-        "• Prohibido tunear por debajo de estructuras enemigas para saltarse defensas.\n"
-        "• No dejes criaturas de breed sin atender. Huevos, babies o breed suelto en exceso lo puede borrar el staff.\n"
-        "• Prohibido poner turrets en boats, rafts o criaturas.\n• Prohibido insidear.\n"
-        "• No se pueden dañar estructuras de admin, salvo que estén marcadas como objetivo de raid.\n"
-        "• No se raidea a bobs (déjalo disfrutar, jaja)"
-    )},
-    "tribe": {"title": "👥 Reglas de Tribu y Alianza", "description": (
-        "1. Máximo **6 jugadores** por tribu.\n2. Solo se permite **una alianza**.\n"
-        "3. Los aliados pueden ayudar en raids y defensas.\n*(Los aliados NO pueden participar en raids contra **tribus pequeñas**. Una tribu pequeña es de **1 a 4 miembros registrados**.)*\n\n"
-        "4. Prohibido tribe cycling o alliance cycling. Espera **mínimo 24 horas** antes de entrar a otra tribu o alianza.\n"
-        "5. No se puede cambiar de tribu o alianza durante un raid, ni justo antes, ni justo después.\n"
-        "6. El roster tiene que coincidir con el Tribe Registry.\n7. Nombre de tribu, jugadores y alianza iguales en todos los mapas.\n"
-        "8. Prohibido teaming fuera de tu alianza registrada.\n9. “Ayudar a un pana” en PvP cuenta como teaming.\n"
-        "10. Si cambia el nombre de la tribu, los jugadores o la alianza, actualízalo en el registro."
-    )},
-    "building": {"title": "🏰 Reglas de Building y Bases", "description": (
-        "1. Máximo **3 bases** (1 main) por mapa y **4 TPs**.\n"
-        "2. Cuando un raid termina o se abandona, quita las estructuras del raid o conviértelas en base real (o avisa a un admin).\n"
-        "3. Cave edits y donaciones **no tienen refund**.\n"
-        "4. Las cuevas modeadas compradas se quitan si pierdes el control de esa zona. No se reemplazan ni se reembolsan.\n"
-        "5. Criaturas agresivas en wander deben estar en un Dino Leash.\n"
-        "6. El spam que afecte el server hay que quitarlo si el staff lo pide.\n"
-        "7. Se permite algo de structure spam (solo foundations) con medida."
-    )},
-    "whiteflag": {"title": "🏳️ Protección White Flag", "description": (
-        "1. El White Flag dura **7 días** y no se puede extender.\n2. Solo protege tu **base main**.\n"
-        "3. Con White Flag sí puedes PvP, pero **no puedes participar en raids** hasta que se acabe (o el owner lo quite).\n"
-        "4. Si rompes las reglas, pierdes la protección al momento."
-    )},
-    "pvp": {"title": "⚔️ Reglas de PvP / Raid", "description": (
-        "1. Prohibido third-party raid. Solo atacantes y defensores.\n"
-        "*(Una alianza no puede raidear **tribus pequeñas**. Tribu pequeña = **1 a 4 miembros registrados**.)*\n\n"
-        "2. Los thralls solo para PvE. No para raid/defensa/PvP (tribus de 1-2 pueden pedir permiso a admin).\n"
-        "3. Prohibido cannon raid.\n\n**4. Space Whale**\n• No entra al propagator y no se bredea.\n• Prohibido buildear en la espalda/platform.\n\n"
-        "5. Prohibido volverte invisible en PvP.\n6. Prohibido spam en FOBs.\n7. Meks no meshean salvo para limpiar mesh.\n"
-        "8. No donaciones a mitad de raid.\n9. Prohibido popcorn / upload / destruir o llevarse loot durante un raid."
-    )},
-    "harvest": {"title": "🌾 Reglas de Custom Harvest Zones", "description": (
-        "「-✦ Custom Harvest Zones ✦-」\n\n"
-        "• Prohibido buildear dentro de un rango de **30000 x 30000** de la zona.\n"
-        "• TPs / FOBs sí se permiten dentro de un rango de **35000 x 35000**, pero **sin turrets**.\n"
-        "• **El PvP está permitido** en estas zonas."
-    )},
-    "donations": {"title": "💰 Reglas de Donaciones", "description": (
-        "• **Toda venta es final.**\n• Entrega en 5–15 min. Si no llega en 30 min, abre ticket.\n"
-        "• Lo comprado es para **un personaje**.\n• Prohibido revender.\n\n"
-        "**Cave Edits** permanentes. Tú das la ubicación correcta. No hay move/refund. Abusarlas = se quitan + sanción.\n"
-        "• Compra no da inmunidad a las reglas.\n• Chargeback = ban permanente.\n• No donaciones mid-raid."
-    )},
-    "extra": {"title": "📌 Reglas extra y strikes", "description": (
-        "• Prohibido vender bases/dinos/items/tribu por dinero real.\n"
-        "• **Máximo 15 dinos sin cryo por base.** Aggressive/Neutral/Wander en Dino Leash (**máx 4 por leash**).\n"
-        "• CS Medical Stations solo para heal en **breed**, no en raid/defensa.\n"
-        "• Si defiendes una entrada modeada con dino, **tienes que estar montado**.\n"
-        "• Una cuenta main por jugador. No alts para extra slots, White Flags, shop o PvP.\n"
-        "• TPs no se esconden en render enemigo ni se usan para dropear en base ajena.\n"
-        "• Prohibido usar World Builder para trapear, esconder hitboxes o hacer unraidable.\n"
-        "• Carpet turrets / spam excesivo puede ser wipeado por staff.\n\n"
-        "ㆍ Warning verbal → Helena\nㆍ 1er Strike → warning escrito\nㆍ 2do Strike → restricción o ban temporal\nㆍ 3er Strike → ban largo o permanente\n\n"
-        "**Grave:** RMT, dupeo, racismo, evadir ban, amenazas IRL, tirar el server.\nLa decisión del staff es final."
-    )},
+    "discord": {
+        "title": "💬 Reglas de Discord",
+        "description": (
+            "**1 • Registro**\nRegistra tu nombre in-game y el de tu tribu.\n\n"
+            "**2 • Cero tolerancia**\nNada de racismo, odio, acoso o discriminación.\n"
+            "1ra falta → Mute • 2da → Ban 3 días • 3ra → Ban permanente.\n\n"
+            "**3 • Canales**\nUsa cada canal para lo que es.\n**4 • Conducta**\nEl vacile está bien, el drama tóxico no.\n"
+            "**5 • Contenido**\nNada NSFW/ofensivo.\n**6 • Coordenadas**\nNo publiques bases ajenas.\n"
+            "**7 • Reportes**\nTodo por ticket.\n**8 • Privacidad**\nNada de datos personales.\n"
+            "**9 • Spam**\nProhibido.\n**10 • Reclutamiento**\nNo invites gente solo para dañar el server.\n"
+            "**11 • Staff**\nRespeta al staff. La decisión del staff es final."
+        )
+    },
+    "general": {
+        "title": "📜 Reglas generales del cluster",
+        "description": (
+            "• Prohibido cheats, exploits o usar mecánicas no intencionadas del juego.\n"
+            "• Prohibido meshear o buildear dentro del mesh.\n• Prohibido dupiar items, criaturas o recursos.\n"
+            "• Prohibido box raid. Se puede boxear a un jugador en 1x1, pero los tames tienen que poder recibir daño. (Lo mismo aplica al CS Tek Shield en cualquier Dino Plat saddle)\n"
+            "• Prohibido tunear por debajo de estructuras enemigas para saltarse defensas.\n"
+            "• No dejes criaturas de breed sin atender. Huevos, babies o breed suelto en exceso lo puede borrar el staff.\n"
+            "• Prohibido poner turrets en boats, rafts o criaturas.\n• Prohibido insidear.\n"
+            "• No se pueden dañar estructuras de admin, salvo que estén marcadas como objetivo de raid.\n"
+            "• No se raidea a bobs (déjalo disfrutar, jaja)"
+        )
+    },
+    "tribe": {
+        "title": "👥 Reglas de Tribu y Alianza",
+        "description": (
+            "1. Máximo **6 jugadores** por tribu.\n2. Solo se permite **una alianza**.\n"
+            "3. Los aliados pueden ayudar en raids y defensas.\n*(Los aliados NO pueden participar en raids contra **tribus pequeñas**. Una tribu pequeña es de **1 a 4 miembros registrados**.)*\n\n"
+            "4. Prohibido tribe cycling o alliance cycling. Espera **mínimo 24 horas** antes de entrar a otra tribu o alianza.\n"
+            "5. No se puede cambiar de tribu o alianza durante un raid, ni justo antes, ni justo después. Se requiere una espera de **24 horas** después de que termine un raid antes de cualquier cambio de tribu o alianza.\n"
+            "6. El roster tiene que coincidir con el Tribe Registry.\n7. Nombre de tribu, jugadores y alianza iguales en todos los mapas.\n"
+            "8. Prohibido teaming fuera de tu alianza registrada.\n9. “Ayudar a un pana” en PvP cuenta como teaming.\n"
+            "10. Si cambia el nombre de la tribu, los jugadores o la alianza, actualízalo en el registro."
+        )
+    },
+    "building": {
+        "title": "🏰 Reglas de Building y Bases",
+        "description": (
+            "1. Máximo **3 bases** (1 main) por mapa y **4 TPs**.\n"
+            "2. Cuando un raid termina o se abandona, quita las estructuras del raid o conviértelas en base real (o avisa a un admin).\n"
+            "3. Cave edits y donaciones **no tienen refund**.\n"
+            "4. Las cuevas modeadas compradas se quitan si pierdes el control de esa zona. No se reemplazan ni se reembolsan.\n"
+            "5. Criaturas agresivas en wander deben estar en un Dino Leash.\n"
+            "6. El spam que afecte el server hay que quitarlo si el staff lo pide.\n"
+            "7. Se permite algo de structure spam (solo foundations) con medida."
+        )
+    },
+    "whiteflag": {
+        "title": "🏳️ Protección White Flag",
+        "description": (
+            "1. El White Flag dura **7 días** y no se puede extender.\n2. Solo protege tu **base main**.\n"
+            "3. Con White Flag sí puedes PvP, pero **no puedes participar en raids** hasta que se acabe (o el owner lo quite).\n"
+            "4. Si rompes las reglas, pierdes la protección al momento."
+        )
+    },
+    "pvp": {
+        "title": "⚔️ Reglas de PvP / Raid",
+        "description": (
+            "1. Prohibido third-party raid. Solo atacantes y defensores.\n"
+            "*(Una alianza no puede raidear **tribus pequeñas**. Tribu pequeña = **1 a 4 miembros registrados**.)*\n\n"
+            "2. Los thralls solo para PvE. No para raid/defensa/PvP (tribus de 1-2 pueden pedir permiso a admin).\n"
+            "3. Prohibido cannon raid.\n\n**4. Space Whale**\n• No entra al propagator y no se bredea.\n• Prohibido buildear en la espalda/platform.\n\n"
+            "5. Prohibido volverte invisible en PvP.\n6. Prohibido spam en FOBs.\n7. Meks no meshean salvo para limpiar mesh.\n"
+            "8. No donaciones a mitad de raid.\n9. Prohibido popcorn / upload / destruir o llevarse loot durante un raid."
+        )
+    },
+    "harvest": {
+        "title": "🌾 Reglas de Custom Harvest Zones",
+        "description": (
+            "「-✦ Custom Harvest Zones ✦-」\n\n"
+            "• Prohibido buildear dentro de un rango de **30000 x 30000** de la zona.\n"
+            "• TPs / FOBs sí se permiten dentro de un rango de **35000 x 35000**, pero **sin turrets**.\n"
+            "• **El PvP está permitido** en estas zonas."
+        )
+    },
+    "rathole": {
+        "title": "🕳️ Reglas de Rat Holes",
+        "description": (
+            "• Está prohibido buildear en rat holes OP conocidos. Esto incluye spots que son extremadamente difíciles o imposibles de raidear bien (como el rat hole **Peli** y cualquier spot similar de mesh, underwater o grietas chiquitas).\n\n"
+            "• Cualquier estructura que se ponga en un rat hole baneado será wipeada por el staff. Si se repite, se lleva strike.\n\n"
+            "• Si no estás seguro si un spot cuenta como rat hole, pregunta al staff **antes** de buildear."
+        )
+    },
+    "donations": {
+        "title": "💰 Reglas de Donaciones",
+        "description": (
+            "• **Toda venta es final.**\n• Entrega en 5–15 min. Si no llega en 30 min, abre ticket.\n"
+            "• Lo comprado es para **un personaje**.\n• Prohibido revender.\n\n"
+            "**Cave Edits** permanentes. Tú das la ubicación correcta. No hay move/refund. Abusarlas = se quitan + sanción.\n"
+            "• Compra no da inmunidad a las reglas.\n• Chargeback = ban permanente.\n• No donaciones mid-raid."
+        )
+    },
+    "extra": {
+        "title": "📌 Reglas extra y strikes",
+        "description": (
+            "• Prohibido vender bases/dinos/items/tribu por dinero real.\n"
+            "• **Máximo 20 dinos sin cryo por base.** Aggressive/Neutral/Wander en Dino Leash (**máx 4 por leash**).\n"
+            "• **CS Medical Stations** y **Home Sweet Home** solo se usan para healear en **breed**. **No** se usan en raid ni para defender.\n"
+            "• Si defiendes una entrada modeada con dino, **tienes que estar montado**.\n"
+            "• Una cuenta main por jugador. No alts para extra slots, White Flags, shop o PvP.\n"
+            "• TPs no se esconden en render enemigo ni se usan para dropear en base ajena.\n"
+            "• Prohibido usar World Builder para trapear, esconder hitboxes o hacer unraidable.\n"
+            "• Carpet turrets / spam excesivo puede ser wipeado por staff.\n\n"
+            "ㆍ Warning verbal → Helena\nㆍ 1er Strike → warning escrito\nㆍ 2do Strike → restricción o ban temporal\nㆍ 3er Strike → ban largo o permanente\n\n"
+            "**Grave:** RMT, dupeo, racismo, evadir ban, amenazas IRL, tirar el server.\nLa decisión del staff es final."
+        )
+    }
 }
-RULES_ES["discord"]["description"] = (
-    "**1 • Registro**\nRegistra tu nombre in-game y el de tu tribu.\n\n"
-    "**2 • Cero tolerancia**\nNada de racismo, odio, acoso o discriminación.\n"
-    "1ra falta → Mute • 2da → Ban 3 días • 3ra → Ban permanente.\n\n"
-    "**3 • Canales**\nUsa cada canal para lo que es.\n**4 • Conducta**\nEl vacile está bien, el drama tóxico no.\n"
-    "**5 • Contenido**\nNada NSFW/ofensivo.\n**6 • Coordenadas**\nNo publiques bases ajenas.\n"
-    "**7 • Reportes**\nTodo por ticket.\n**8 • Privacidad**\nNada de datos personales.\n"
-    "**9 • Spam**\nProhibido.\n**10 • Reclutamiento**\nNo invites gente solo para dañar el server.\n"
-    "**11 • Staff**\nRespeta al staff. La decisión del staff es final."
-)
 
 RULES_FR = {
     "discord": {"title": "💬 Règles Discord", "description": (
@@ -298,7 +340,8 @@ RULES_FR = {
     "tribe": {"title": "👥 Règles Tribu & Alliance", "description": (
         "1. Max **6 joueurs** par tribu.\n2. Une seule alliance.\n"
         "3. Les alliés peuvent aider en raid/défense.\n*(Les alliés ne peuvent pas raid les **petites tribus** = **1 à 4 membres enregistrés**.)*\n\n"
-        "4. Pas de tribe/alliance cycling. **24h** d’attente minimum.\n5. Pas de changement pendant / juste avant / juste après un raid.\n"
+        "4. Pas de tribe/alliance cycling. **24h** d’attente minimum.\n"
+        "5. Pas de changement pendant / juste avant / juste après un raid. Un délai de **24 heures** est requis après la fin d’un raid avant tout changement de tribu ou d’alliance.\n"
         "6. Le roster doit matcher le Tribe Registry.\n7. Même nom/tribu/alliance sur toutes les maps.\n"
         "8. Pas de teaming hors alliance.\n9. “Aider un pote” en PvP = teaming.\n10. Tout changement doit être update dans le registre."
     )},
@@ -325,14 +368,19 @@ RULES_FR = {
         "• TPs / FOBs autorisés dans une zone de **35000 x 35000**, mais **aucune turret**.\n"
         "• **Le PvP est autorisé** dans ces zones."
     )},
+    "rathole": {"title": "🕳️ Règles Rat Hole", "description": (
+        "• Il est interdit de build dans les rat holes OP connus. Ça inclut les spots qui sont extrêmement durs ou impossibles à raid correctement (comme le rat hole **Peli** et tout spot similaire en mesh, underwater ou petites crevasses).\n\n"
+        "• Toute structure placée dans un rat hole banni sera wipe par le staff. Les récidivistes prennent un strike.\n\n"
+        "• Si tu n’es pas sûr qu’un spot compte comme rat hole, demande au staff **avant** de build."
+    )},
     "donations": {"title": "💰 Règles Donations", "description": (
         "• Toute vente est finale.\n• Livraison 5–15 min. Ticket si rien en 30 min.\n• Un seul personnage.\n• Pas de revente.\n"
         "• Cave edits permanentes, pas de refund/move.\n• Un achat ne donne aucune immunité.\n• Chargeback = ban permanent.\n• Pas de donation mid-raid."
     )},
     "extra": {"title": "📌 Règles extra & strikes", "description": (
         "• Interdit de vendre bases/dinos/items/tribu pour de l’argent réel.\n"
-        "• **Max 15 dinos non cryo par base.** Aggressive/Neutral/Wander dans un Dino Leash (**max 4 par leash**).\n"
-        "• CS Medical Stations = heal de **breed** uniquement, pas en raid/défense.\n"
+        "• **Max 20 dinos non cryo par base.** Aggressive/Neutral/Wander dans un Dino Leash (**max 4 par leash**).\n"
+        "• **CS Medical Stations** et **Home Sweet Home** = heal de **breed** uniquement, pas en raid/défense.\n"
         "• Pour défendre une entrée moddée avec un dino, tu dois **être monté dessus**.\n"
         "• Un compte main par joueur. Pas d’alts pour slots, White Flags, shop ou PvP extra.\n"
         "• TPs pas cachés dans le render ennemi / pas pour drop dans une base.\n"
@@ -363,7 +411,7 @@ RULES_DE = {
         "1. Max **6 Spieler** pro Tribe.\n2. Nur **eine Alliance**.\n"
         "3. Allies dürfen bei Raid/Defense helfen.\n*(Allies dürfen **Small Tribes** nicht raid-en. Small Tribe = **1–4 registrierte Member**.)*\n\n"
         "4. Kein Tribe-/Alliance-Cycling. Mindestens **24 Stunden** warten.\n"
-        "5. Kein Wechsel während / direkt vor / direkt nach einem Raid.\n"
+        "5. Kein Wechsel während / direkt vor / direkt nach einem Raid. Eine Wartezeit von **24 Stunden** nach Ende eines Raids ist erforderlich, bevor ein Tribe- oder Alliance-Wechsel möglich ist.\n"
         "6. Roster muss zum Tribe Registry passen.\n7. Gleicher Tribe-/Alliance-Name auf allen Maps.\n"
         "8. Kein Teaming außerhalb der Alliance.\n9. „Nur einem Bro helfen“ im PvP = Teaming.\n10. Änderungen müssen im Register geupdatet werden."
     )},
@@ -390,14 +438,19 @@ RULES_DE = {
         "• TPs / FOBs sind innerhalb von **35000 x 35000** erlaubt, aber **keine Turrets**.\n"
         "• **PvP ist in diesen Zonen erlaubt.**"
     )},
+    "rathole": {"title": "🕳️ Rat-Hole-Regeln", "description": (
+        "• Bauen in bekannten OP Rat Holes ist verboten. Das schließt Spots ein, die extrem schwer oder unmöglich richtig zu raiden sind (wie der **Peli** Rat Hole und ähnliche Mesh-/Underwater-/kleine Spalten-Spots).\n\n"
+        "• Alle Structures in einem gebannten Rat Hole werden vom Staff gewiped. Wiederholungstäter bekommen einen Strike.\n\n"
+        "• Wenn du unsicher bist, ob ein Spot als Rat Hole zählt, frag den Staff **bevor** du baust."
+    )},
     "donations": {"title": "💰 Donations-Regeln", "description": (
         "• Alle Käufe sind final.\n• Lieferung 5–15 Min. Ticket nach 30 Min.\n• Nur für einen Character.\n• Kein Weiterverkauf.\n"
         "• Cave Edits sind permanent, kein Move/Refund.\n• Kaufen gibt keine Regel-Immunität.\n• Chargeback = Permaban.\n• Keine Donation mid-raid."
     )},
     "extra": {"title": "📌 Extra-Regeln & Strikes", "description": (
         "• Kein Verkauf von Bases/Dinos/Items/Tribe für Echtgeld.\n"
-        "• **Max 15 uncryo’te Dinos pro Base.** Aggressive/Neutral/Wander im Dino Leash (**max 4 pro Leash**).\n"
-        "• CS Medical Stations nur zum Healen beim **Breed**, nicht im Raid/Defense.\n"
+        "• **Max 20 uncryo’te Dinos pro Base.** Aggressive/Neutral/Wander im Dino Leash (**max 4 pro Leash**).\n"
+        "• **CS Medical Stations** und **Home Sweet Home** nur zum Healen beim **Breed**, nicht im Raid/Defense.\n"
         "• Modded Entry mit Dino verteidigen = du musst **drauf sitzen**.\n"
         "• Ein Main-Account pro Spieler. Keine Alts für extra Slots, White Flags, Shop oder PvP.\n"
         "• TPs nicht im Enemy-Render verstecken / nicht in fremde Bases droppen.\n"
@@ -415,6 +468,7 @@ RULE_OPTIONS_EN = [
     discord.SelectOption(label="White Flag", value="whiteflag", emoji="🏳️"),
     discord.SelectOption(label="PvP / Raid Rules", value="pvp", emoji="⚔️"),
     discord.SelectOption(label="Harvest Zones", value="harvest", emoji="🌾"),
+    discord.SelectOption(label="Rat Hole Rules", value="rathole", emoji="🕳️"),
     discord.SelectOption(label="Donations Rules", value="donations", emoji="💰"),
     discord.SelectOption(label="Extra + Strikes", value="extra", emoji="📌"),
 ]
@@ -450,6 +504,7 @@ RulesEsSelect = make_select(RULES_ES, "glacial_rules_es_select", "Elige una cate
     discord.SelectOption(label="White Flag", value="whiteflag", emoji="🏳️"),
     discord.SelectOption(label="PvP / Raid", value="pvp", emoji="⚔️"),
     discord.SelectOption(label="Harvest Zones", value="harvest", emoji="🌾"),
+    discord.SelectOption(label="Reglas de Rat Holes", value="rathole", emoji="🕳️"),
     discord.SelectOption(label="Donaciones", value="donations", emoji="💰"),
     discord.SelectOption(label="Extra + Strikes", value="extra", emoji="📌"),
 ])
@@ -461,6 +516,7 @@ RulesFrSelect = make_select(RULES_FR, "glacial_rules_fr_select", "Choisis une ca
     discord.SelectOption(label="White Flag", value="whiteflag", emoji="🏳️"),
     discord.SelectOption(label="PvP / Raid", value="pvp", emoji="⚔️"),
     discord.SelectOption(label="Harvest Zones", value="harvest", emoji="🌾"),
+    discord.SelectOption(label="Règles Rat Hole", value="rathole", emoji="🕳️"),
     discord.SelectOption(label="Donations", value="donations", emoji="💰"),
     discord.SelectOption(label="Extra + Strikes", value="extra", emoji="📌"),
 ])
@@ -472,6 +528,7 @@ RulesDeSelect = make_select(RULES_DE, "glacial_rules_de_select", "Kategorie wäh
     discord.SelectOption(label="White Flag", value="whiteflag", emoji="🏳️"),
     discord.SelectOption(label="PvP / Raid", value="pvp", emoji="⚔️"),
     discord.SelectOption(label="Harvest Zones", value="harvest", emoji="🌾"),
+    discord.SelectOption(label="Rat-Hole-Regeln", value="rathole", emoji="🕳️"),
     discord.SelectOption(label="Donations", value="donations", emoji="💰"),
     discord.SelectOption(label="Extra + Strikes", value="extra", emoji="📌"),
 ])
