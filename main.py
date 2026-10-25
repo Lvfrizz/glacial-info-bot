@@ -155,7 +155,9 @@ RULES = {
             "3. No Cannon raiding.\n\n**4. Space Whale Rules**\n• Excluded from the propagator and unbreedable.\n• Building on the back/platform is not permitted.\n• Further adjustments may be made based on feedback.\n\n"
             "5. Using any creature abilities, structures, or effects to become fully invisible during PvP is strictly prohibited (including Space Whale burrowing and any builds that conceal the player).\n"
             "6. Spamming in FOBs is not allowed.\n7. Meks must not mesh unless clearing a meshed structure.\n"
-            "8. Donations are not allowed mid-raid.\n9. Popcorning / uploading / destroying or taking loot during a raid is not allowed."
+            "8. Donations are not allowed mid-raid.\n9. Popcorning / uploading / destroying or taking loot during a raid is not allowed.\n\n"
+            "• **CS Medical Stations** and **Home Sweet Home** may only be used for healing during **breeding**. They are **not** allowed during raids or defending.\n\n"
+            "• **Counter FOBs or attacking a tribe during a raid is not allowed.** FOBs will be wiped by admin immediately if the tribe countering is not listening to admin or following rules."
         )
     },
     "harvest": {
@@ -192,7 +194,6 @@ RULES = {
             "**Extra Rules**\n"
             "• Selling bases, creatures, items, tribe ownership, or services for real-world money is strictly prohibited.\n"
             "• **Max 20 uncryo’d dinos per base.** Dinos set to Aggressive, Neutral, or Wandering must be contained within a Dino Leash (**max 4 dinos per leash**).\n"
-            "• **CS Medical Stations** and **Home Sweet Home** may only be used for healing during **breeding**. They are **not** allowed during raids or defending.\n"
             "• If you are defending a modded entry with a dino, you **must be riding the dino**. Do not block or exploit modded entries with dinos/creatures.\n"
             "• One main account per player. Alts are not allowed for extra tribe slots, extra White Flags, extra shop purchases, or extra PvP presence.\n"
             "• TPs cannot be hidden inside enemy render, used to drop into someone else’s base, or placed in a way that bypasses cave/modded entries.\n"
@@ -274,7 +275,9 @@ RULES_ES = {
             "2. Los thralls solo para PvE. No para raid/defensa/PvP (tribus de 1-2 pueden pedir permiso a admin).\n"
             "3. Prohibido cannon raid.\n\n**4. Space Whale**\n• No entra al propagator y no se bredea.\n• Prohibido buildear en la espalda/platform.\n\n"
             "5. Prohibido volverte invisible en PvP.\n6. Prohibido spam en FOBs.\n7. Meks no meshean salvo para limpiar mesh.\n"
-            "8. No donaciones a mitad de raid.\n9. Prohibido popcorn / upload / destruir o llevarse loot durante un raid."
+            "8. No donaciones a mitad de raid.\n9. Prohibido popcorn / upload / destruir o llevarse loot durante un raid.\n\n"
+            "• **CS Medical Stations** y **Home Sweet Home** solo se usan para healear en **breed**. **No** se usan en raid ni para defender.\n\n"
+            "• **Counter FOBs o atacar a una tribu durante un raid no está permitido.** Los FOBs serán wipeados por admin inmediatamente si la tribu que counterea no escucha a los admins o no sigue las reglas."
         )
     },
     "harvest": {
@@ -308,7 +311,6 @@ RULES_ES = {
         "description": (
             "• Prohibido vender bases/dinos/items/tribu por dinero real.\n"
             "• **Máximo 20 dinos sin cryo por base.** Aggressive/Neutral/Wander en Dino Leash (**máx 4 por leash**).\n"
-            "• **CS Medical Stations** y **Home Sweet Home** solo se usan para healear en **breed**. **No** se usan en raid ni para defender.\n"
             "• Si defiendes una entrada modeada con dino, **tienes que estar montado**.\n"
             "• Una cuenta main por jugador. No alts para extra slots, White Flags, shop o PvP.\n"
             "• TPs no se esconden en render enemigo ni se usan para dropear en base ajena.\n"
@@ -360,7 +362,9 @@ RULES_FR = {
         "1. Pas de third-party raid.\n*(Une alliance ne raid pas les **petites tribus** = **1–4 membres**.)*\n\n"
         "2. Thralls = PvE seulement.\n3. Pas de cannon raid.\n\n**4. Space Whale**\n• Pas de propagator / pas de breed.\n• Pas de build sur le dos/platform.\n\n"
         "5. Invisibilité totale en PvP interdite.\n6. Pas de spam dans les FOBs.\n7. Mek : pas de mesh sauf pour clear du mesh.\n"
-        "8. Pas de donations mid-raid.\n9. Pas de popcorn / upload / destruction ou vol de loot pendant un raid."
+        "8. Pas de donations mid-raid.\n9. Pas de popcorn / upload / destruction ou vol de loot pendant un raid.\n\n"
+        "• **CS Medical Stations** et **Home Sweet Home** = heal de **breed** uniquement, pas en raid/défense.\n\n"
+        "• **Counter FOBs ou attaquer une tribu pendant un raid est interdit.** Les FOBs seront wipe par les admins immédiatement si la tribu qui counter n’écoute pas les admins ou ne suit pas les règles."
     )},
     "harvest": {"title": "🌾 Règles Custom Harvest Zones", "description": (
         "「-✦ Custom Harvest Zones ✦-」\n\n"
@@ -380,7 +384,6 @@ RULES_FR = {
     "extra": {"title": "📌 Règles extra & strikes", "description": (
         "• Interdit de vendre bases/dinos/items/tribu pour de l’argent réel.\n"
         "• **Max 20 dinos non cryo par base.** Aggressive/Neutral/Wander dans un Dino Leash (**max 4 par leash**).\n"
-        "• **CS Medical Stations** et **Home Sweet Home** = heal de **breed** uniquement, pas en raid/défense.\n"
         "• Pour défendre une entrée moddée avec un dino, tu dois **être monté dessus**.\n"
         "• Un compte main par joueur. Pas d’alts pour slots, White Flags, shop ou PvP extra.\n"
         "• TPs pas cachés dans le render ennemi / pas pour drop dans une base.\n"
@@ -430,7 +433,9 @@ RULES_DE = {
         "1. Kein Third-Party-Raid.\n*(Alliances dürfen **Small Tribes** nicht raid-en. Small Tribe = **1–4 Member**.)*\n\n"
         "2. Thralls nur PvE.\n3. Kein Cannon-Raid.\n\n**4. Space Whale**\n• Nicht im Propagator / nicht breedbar.\n• Kein Build auf Rücken/Platform.\n\n"
         "5. Volle Unsichtbarkeit im PvP verboten.\n6. Kein Spam in FOBs.\n7. Meks dürfen nicht meshen, außer zum Clearen von Mesh.\n"
-        "8. Keine Donations mitten im Raid.\n9. Kein Popcorn / Upload / Loot zerstören oder mitnehmen während eines Raids."
+        "8. Keine Donations mitten im Raid.\n9. Kein Popcorn / Upload / Loot zerstören oder mitnehmen während eines Raids.\n\n"
+        "• **CS Medical Stations** und **Home Sweet Home** nur zum Healen beim **Breed**, nicht im Raid/Defense.\n\n"
+        "• **Counter FOBs oder Angriffe auf einen Tribe während eines Raids sind nicht erlaubt.** FOBs werden sofort von Admins gewiped, wenn der counternde Tribe nicht auf Admins hört oder Regeln bricht."
     )},
     "harvest": {"title": "🌾 Custom-Harvest-Zone-Regeln", "description": (
         "「-✦ Custom Harvest Zones ✦-」\n\n"
@@ -450,7 +455,6 @@ RULES_DE = {
     "extra": {"title": "📌 Extra-Regeln & Strikes", "description": (
         "• Kein Verkauf von Bases/Dinos/Items/Tribe für Echtgeld.\n"
         "• **Max 20 uncryo’te Dinos pro Base.** Aggressive/Neutral/Wander im Dino Leash (**max 4 pro Leash**).\n"
-        "• **CS Medical Stations** und **Home Sweet Home** nur zum Healen beim **Breed**, nicht im Raid/Defense.\n"
         "• Modded Entry mit Dino verteidigen = du musst **drauf sitzen**.\n"
         "• Ein Main-Account pro Spieler. Keine Alts für extra Slots, White Flags, Shop oder PvP.\n"
         "• TPs nicht im Enemy-Render verstecken / nicht in fremde Bases droppen.\n"
