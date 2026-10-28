@@ -103,7 +103,7 @@ RULES = {
             "• No cheating, exploiting, or using unintended game mechanics.\n"
             "• No meshing or building inside the mesh.\n"
             "• No duplication of items, creatures, or resources.\n"
-            "• No box raiding. Players may be boxed in (1x1), but tames must remain damageable. (Same applies to CS Tek Shield on any Dino Plat saddle)\n"
+            "• **No box raiding.** Players may be boxed in (1x1), **tames must remain damageable**, (same goes to **Vehicles / Utility items / objects** — can't have structures on them or be used for raids).\n"
             "• No tunneling beneath enemy structures to bypass defenses.\n"
             "• Do not leave breeding creatures unattended. Excessive eggs, babies, or breeding clutter may be removed by staff.\n"
             "• Turrets may not be placed on boats, rafts, or creatures.\n"
@@ -143,7 +143,9 @@ RULES = {
             "1. White Flag protection lasts **7 days** and cannot be extended.\n"
             "2. White Flag only protects your **main base**.\n"
             "3. Players under White Flag may PvP but may **not participate in raids** until protection expires (or is ended by the tribe owner).\n"
-            "4. Violating White Flag rules will result in immediate loss of protection."
+            "4. Violating White Flag rules will result in immediate loss of protection.\n\n"
+            "• **Tribes under White Flag can NOT place FOBs on any tribe until the grace period ends.**\n"
+            "• **No tribe can place a FOB on tribes that are under White Flag until the grace period is done.**"
         )
     },
     "pvp": {
@@ -157,7 +159,7 @@ RULES = {
             "6. Spamming in FOBs is not allowed.\n7. Meks must not mesh unless clearing a meshed structure.\n"
             "8. Donations are not allowed mid-raid.\n9. Popcorning / uploading / destroying or taking loot during a raid is not allowed.\n\n"
             "• **CS Medical Stations** and **Home Sweet Home** may only be used for healing during **breeding**. They are **not** allowed during raids or defending.\n\n"
-            "• **Counter FOBs or attacking a tribe during a raid is not allowed.** FOBs will be wiped by admin immediately if the tribe countering is not listening to admin or following rules."
+            "• **If you counter a FOB, you must take complete control of the raid.** Just destroying a FOB for fun or looking for PvP mid-raid **will count as third party.**"
         )
     },
     "harvest": {
@@ -227,7 +229,7 @@ RULES_ES = {
         "description": (
             "• Prohibido cheats, exploits o usar mecánicas no intencionadas del juego.\n"
             "• Prohibido meshear o buildear dentro del mesh.\n• Prohibido dupiar items, criaturas o recursos.\n"
-            "• Prohibido box raid. Se puede boxear a un jugador en 1x1, pero los tames tienen que poder recibir daño. (Lo mismo aplica al CS Tek Shield en cualquier Dino Plat saddle)\n"
+            "• **No box raid.** Se puede boxear a un jugador en 1x1, **los tames tienen que poder recibir daño**, (lo mismo aplica a **Vehicles / Utility items / objetos** — no pueden tener structures encima ni usarse para raids).\n"
             "• Prohibido tunear por debajo de estructuras enemigas para saltarse defensas.\n"
             "• No dejes criaturas de breed sin atender. Huevos, babies o breed suelto en exceso lo puede borrar el staff.\n"
             "• Prohibido poner turrets en boats, rafts o criaturas.\n• Prohibido insidear.\n"
@@ -264,7 +266,9 @@ RULES_ES = {
         "description": (
             "1. El White Flag dura **7 días** y no se puede extender.\n2. Solo protege tu **base main**.\n"
             "3. Con White Flag sí puedes PvP, pero **no puedes participar en raids** hasta que se acabe (o el owner lo quite).\n"
-            "4. Si rompes las reglas, pierdes la protección al momento."
+            "4. Si rompes las reglas, pierdes la protección al momento.\n\n"
+            "• **Las tribus con White Flag NO pueden poner FOBs en ninguna tribu hasta que se acabe el grace.**\n"
+            "• **Ninguna tribu puede poner un FOB en tribus que estén bajo White Flag hasta que se acabe el grace.**"
         )
     },
     "pvp": {
@@ -277,7 +281,7 @@ RULES_ES = {
             "5. Prohibido volverte invisible en PvP.\n6. Prohibido spam en FOBs.\n7. Meks no meshean salvo para limpiar mesh.\n"
             "8. No donaciones a mitad de raid.\n9. Prohibido popcorn / upload / destruir o llevarse loot durante un raid.\n\n"
             "• **CS Medical Stations** y **Home Sweet Home** solo se usan para healear en **breed**. **No** se usan en raid ni para defender.\n\n"
-            "• **Counter FOBs o atacar a una tribu durante un raid no está permitido.** Los FOBs serán wipeados por admin inmediatamente si la tribu que counterea no escucha a los admins o no sigue las reglas."
+            "• **Si countereas un FOB, tienes que tomar el control completo del raid.** Solo destruir un FOB por diversión o buscar PvP a mitad de raid **cuenta como third party.**"
         )
     },
     "harvest": {
@@ -335,7 +339,7 @@ RULES_FR = {
     )},
     "general": {"title": "📜 Règles générales du cluster", "description": (
         "• Pas de cheat, exploit ou mécanique non prévue.\n• Pas de mesh / build dans le mesh.\n• Pas de dupe.\n"
-        "• Pas de box raid. Un joueur peut être boxé en 1x1, mais les tames doivent pouvoir prendre des dégâts. (Idem pour le CS Tek Shield sur plat saddle)\n"
+        "• **Pas de box raid.** Un joueur peut être boxé en 1x1, **les tames doivent pouvoir prendre des dégâts**, (pareil pour **Vehicles / Utility items / objets** — pas de structures dessus ni utilisation pour des raids).\n"
         "• Pas de tunnel sous les structures ennemies.\n• Ne laisse pas le breed sans surveillance.\n"
         "• Pas de turrets sur boats, rafts ou dinos.\n• Pas d’inside.\n• Pas de dégâts sur les structures admin.\n• Pas de raid sur les bobs."
     )},
@@ -356,7 +360,9 @@ RULES_FR = {
     "whiteflag": {"title": "🏳️ Protection White Flag", "description": (
         "1. White Flag = **7 jours**, non prolongeable.\n2. Protège uniquement ta **base main**.\n"
         "3. PvP autorisé, mais **pas de participation aux raids** tant que le flag est actif.\n"
-        "4. Enfreindre les règles = perte immédiate de la protection."
+        "4. Enfreindre les règles = perte immédiate de la protection.\n\n"
+        "• **Les tribus sous White Flag ne peuvent PAS placer de FOBs sur aucune tribu avant la fin du grace.**\n"
+        "• **Aucune tribu ne peut placer un FOB sur une tribu sous White Flag avant la fin du grace.**"
     )},
     "pvp": {"title": "⚔️ Règles PvP / Raid", "description": (
         "1. Pas de third-party raid.\n*(Une alliance ne raid pas les **petites tribus** = **1–4 membres**.)*\n\n"
@@ -364,7 +370,7 @@ RULES_FR = {
         "5. Invisibilité totale en PvP interdite.\n6. Pas de spam dans les FOBs.\n7. Mek : pas de mesh sauf pour clear du mesh.\n"
         "8. Pas de donations mid-raid.\n9. Pas de popcorn / upload / destruction ou vol de loot pendant un raid.\n\n"
         "• **CS Medical Stations** et **Home Sweet Home** = heal de **breed** uniquement, pas en raid/défense.\n\n"
-        "• **Counter FOBs ou attaquer une tribu pendant un raid est interdit.** Les FOBs seront wipe par les admins immédiatement si la tribu qui counter n’écoute pas les admins ou ne suit pas les règles."
+        "• **Si tu counter un FOB, tu dois prendre le contrôle complet du raid.** Détruire un FOB juste pour le fun ou chercher du PvP en plein raid **compte comme third party.**"
     )},
     "harvest": {"title": "🌾 Règles Custom Harvest Zones", "description": (
         "「-✦ Custom Harvest Zones ✦-」\n\n"
@@ -406,7 +412,7 @@ RULES_DE = {
     )},
     "general": {"title": "📜 Allgemeine Cluster-Regeln", "description": (
         "• Kein Cheaten, Exploiten oder unbeabsichtigte Mechanics.\n• Kein Meshen / Bauen im Mesh.\n• Kein Dupen.\n"
-        "• Kein Box-Raid. Spieler dürfen 1x1 geboxt werden, Tames müssen aber damagebar bleiben. (Gilt auch für CS Tek Shield auf Plat-Saddles)\n"
+        "• **Kein Box-Raid.** Spieler dürfen 1x1 geboxt werden, **Tames müssen damagebar bleiben**, (gilt auch für **Vehicles / Utility Items / Objekte** — keine Structures drauf und nicht für Raids nutzen).\n"
         "• Kein Tunneln unter gegnerischen Structures.\n• Breeding nicht unbeaufsichtigt lassen.\n"
         "• Keine Turrets auf Boats, Rafts oder Dinos.\n• Kein Insiden.\n• Keine Admin-Structures zerstören.\n• Kein Bob-Raiden."
     )},
@@ -427,7 +433,9 @@ RULES_DE = {
     "whiteflag": {"title": "🏳️ White-Flag-Schutz", "description": (
         "1. White Flag gilt **7 Tage** und kann nicht verlängert werden.\n2. Schützt nur die **Main Base**.\n"
         "3. PvP ist erlaubt, aber **keine Raid-Teilnahme**, solange der Flag aktiv ist.\n"
-        "4. Regelbruch = sofortiger Verlust des Schutzes."
+        "4. Regelbruch = sofortiger Verlust des Schutzes.\n\n"
+        "• **Tribes unter White Flag dürfen KEINE FOBs auf irgendeinen Tribe setzen, bis der Grace vorbei ist.**\n"
+        "• **Kein Tribe darf ein FOB auf Tribes unter White Flag setzen, bis der Grace vorbei ist.**"
     )},
     "pvp": {"title": "⚔️ PvP- / Raid-Regeln", "description": (
         "1. Kein Third-Party-Raid.\n*(Alliances dürfen **Small Tribes** nicht raid-en. Small Tribe = **1–4 Member**.)*\n\n"
@@ -435,7 +443,7 @@ RULES_DE = {
         "5. Volle Unsichtbarkeit im PvP verboten.\n6. Kein Spam in FOBs.\n7. Meks dürfen nicht meshen, außer zum Clearen von Mesh.\n"
         "8. Keine Donations mitten im Raid.\n9. Kein Popcorn / Upload / Loot zerstören oder mitnehmen während eines Raids.\n\n"
         "• **CS Medical Stations** und **Home Sweet Home** nur zum Healen beim **Breed**, nicht im Raid/Defense.\n\n"
-        "• **Counter FOBs oder Angriffe auf einen Tribe während eines Raids sind nicht erlaubt.** FOBs werden sofort von Admins gewiped, wenn der counternde Tribe nicht auf Admins hört oder Regeln bricht."
+        "• **Wenn du ein FOB counterst, musst du die volle Kontrolle über den Raid übernehmen.** Ein FOB nur zum Spaß zerstören oder mid-raid PvP suchen **zählt als Third Party.**"
     )},
     "harvest": {"title": "🌾 Custom-Harvest-Zone-Regeln", "description": (
         "「-✦ Custom Harvest Zones ✦-」\n\n"
