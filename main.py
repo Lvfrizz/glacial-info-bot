@@ -134,7 +134,8 @@ RULES = {
             "4. Purchased modded caves will be removed after you lose domination of the cave/area and cannot be replaced or refunded.\n"
             "5. Aggressive wandering creatures must be contained within a Dino Leash.\n"
             "6. Excessive spam that negatively impacts server performance must be removed if requested by staff.\n"
-            "7. Structure spam is allowed (foundations only) in a moderated amount. Failure to control it may result in staff wiping the area to reduce lag."
+            "7. Structure spam is allowed (foundations only) in a moderated amount. Failure to control it may result in staff wiping the area to reduce lag.\n\n"
+            "• **All uncryo’d dinos at base must be under leash, max of 5 dinos per leash.**"
         )
     },
     "whiteflag": {
@@ -154,7 +155,7 @@ RULES = {
             "1. Third-party raiding is prohibited. Only the attacking and defending tribes/alliances may participate.\n"
             "*(Alliance attacking during a raid on **small tribes** is not allowed. A small tribe is **1–4 registered members**.)*\n\n"
             "2. Thralls are only allowed for PvE (bosses, exploring, etc.). They may not be used for raiding, defending, or PvP (small 1-2 man tribes may request admin permission).\n"
-            "3. No Cannon raiding.\n\n**4. Space Whale Rules**\n• Excluded from the propagator and unbreedable.\n• Building on the back/platform is not permitted.\n• Further adjustments may be made based on feedback.\n\n"
+            "3. **Raft, zeppelin, cannons are not allowed during raids.**\n\n**4. Space Whale Rules**\n• Excluded from the propagator and unbreedable.\n• Building on the back/platform is not permitted.\n• Further adjustments may be made based on feedback.\n\n"
             "5. Using any creature abilities, structures, or effects to become fully invisible during PvP is strictly prohibited (including Space Whale burrowing and any builds that conceal the player).\n"
             "6. Spamming in FOBs is not allowed.\n7. Meks must not mesh unless clearing a meshed structure.\n"
             "8. Donations are not allowed mid-raid.\n9. Popcorning / uploading / destroying or taking loot during a raid is not allowed.\n\n"
@@ -195,7 +196,6 @@ RULES = {
         "description": (
             "**Extra Rules**\n"
             "• Selling bases, creatures, items, tribe ownership, or services for real-world money is strictly prohibited.\n"
-            "• **Max 20 uncryo’d dinos per base.** Dinos set to Aggressive, Neutral, or Wandering must be contained within a Dino Leash (**max 4 dinos per leash**).\n"
             "• If you are defending a modded entry with a dino, you **must be riding the dino**. Do not block or exploit modded entries with dinos/creatures.\n"
             "• One main account per player. Alts are not allowed for extra tribe slots, extra White Flags, extra shop purchases, or extra PvP presence.\n"
             "• TPs cannot be hidden inside enemy render, used to drop into someone else’s base, or placed in a way that bypasses cave/modded entries.\n"
@@ -258,7 +258,8 @@ RULES_ES = {
             "4. Las cuevas modeadas compradas se quitan si pierdes el control de esa zona. No se reemplazan ni se reembolsan.\n"
             "5. Criaturas agresivas en wander deben estar en un Dino Leash.\n"
             "6. El spam que afecte el server hay que quitarlo si el staff lo pide.\n"
-            "7. Se permite algo de structure spam (solo foundations) con medida."
+            "7. Se permite algo de structure spam (solo foundations) con medida.\n\n"
+            "• **Todos los dinos sin cryo en la base deben estar en leash, máximo 5 dinos por leash.**"
         )
     },
     "whiteflag": {
@@ -277,7 +278,7 @@ RULES_ES = {
             "1. Prohibido third-party raid. Solo atacantes y defensores.\n"
             "*(Una alianza no puede raidear **tribus pequeñas**. Tribu pequeña = **1 a 4 miembros registrados**.)*\n\n"
             "2. Los thralls solo para PvE. No para raid/defensa/PvP (tribus de 1-2 pueden pedir permiso a admin).\n"
-            "3. Prohibido cannon raid.\n\n**4. Space Whale**\n• No entra al propagator y no se bredea.\n• Prohibido buildear en la espalda/platform.\n\n"
+            "3. **Raft, zeppelin, cannons no están permitidos durante raids.**\n\n**4. Space Whale**\n• No entra al propagator y no se bredea.\n• Prohibido buildear en la espalda/platform.\n\n"
             "5. Prohibido volverte invisible en PvP.\n6. Prohibido spam en FOBs.\n7. Meks no meshean salvo para limpiar mesh.\n"
             "8. No donaciones a mitad de raid.\n9. Prohibido popcorn / upload / destruir o llevarse loot durante un raid.\n\n"
             "• **CS Medical Stations** y **Home Sweet Home** solo se usan para healear en **breed**. **No** se usan en raid ni para defender.\n\n"
@@ -314,7 +315,6 @@ RULES_ES = {
         "title": "📌 Reglas extra y strikes",
         "description": (
             "• Prohibido vender bases/dinos/items/tribu por dinero real.\n"
-            "• **Máximo 20 dinos sin cryo por base.** Aggressive/Neutral/Wander en Dino Leash (**máx 4 por leash**).\n"
             "• Si defiendes una entrada modeada con dino, **tienes que estar montado**.\n"
             "• Una cuenta main por jugador. No alts para extra slots, White Flags, shop o PvP.\n"
             "• TPs no se esconden en render enemigo ni se usan para dropear en base ajena.\n"
@@ -355,7 +355,8 @@ RULES_FR = {
         "1. Max **3 bases** (1 main) par map et **4 TPs**.\n"
         "2. Après un raid, retire les structures ou transforme-les en vraie base (ou préviens un admin).\n"
         "3. Cave edits / donations **non remboursables**.\n4. Une cave moddée achetée est retirée si tu perds la zone. Pas de remplacement.\n"
-        "5. Dinos agressifs en wander = Dino Leash.\n6. Le spam qui lag le serveur doit être retiré si le staff le demande."
+        "5. Dinos agressifs en wander = Dino Leash.\n6. Le spam qui lag le serveur doit être retiré si le staff le demande.\n\n"
+        "• **Tous les dinos non cryo à la base doivent être sous leash, max 5 dinos par leash.**"
     )},
     "whiteflag": {"title": "🏳️ Protection White Flag", "description": (
         "1. White Flag = **7 jours**, non prolongeable.\n2. Protège uniquement ta **base main**.\n"
@@ -366,7 +367,7 @@ RULES_FR = {
     )},
     "pvp": {"title": "⚔️ Règles PvP / Raid", "description": (
         "1. Pas de third-party raid.\n*(Une alliance ne raid pas les **petites tribus** = **1–4 membres**.)*\n\n"
-        "2. Thralls = PvE seulement.\n3. Pas de cannon raid.\n\n**4. Space Whale**\n• Pas de propagator / pas de breed.\n• Pas de build sur le dos/platform.\n\n"
+        "2. Thralls = PvE seulement.\n3. **Raft, zeppelin, cannons ne sont pas autorisés pendant les raids.**\n\n**4. Space Whale**\n• Pas de propagator / pas de breed.\n• Pas de build sur le dos/platform.\n\n"
         "5. Invisibilité totale en PvP interdite.\n6. Pas de spam dans les FOBs.\n7. Mek : pas de mesh sauf pour clear du mesh.\n"
         "8. Pas de donations mid-raid.\n9. Pas de popcorn / upload / destruction ou vol de loot pendant un raid.\n\n"
         "• **CS Medical Stations** et **Home Sweet Home** = heal de **breed** uniquement, pas en raid/défense.\n\n"
@@ -389,7 +390,6 @@ RULES_FR = {
     )},
     "extra": {"title": "📌 Règles extra & strikes", "description": (
         "• Interdit de vendre bases/dinos/items/tribu pour de l’argent réel.\n"
-        "• **Max 20 dinos non cryo par base.** Aggressive/Neutral/Wander dans un Dino Leash (**max 4 par leash**).\n"
         "• Pour défendre une entrée moddée avec un dino, tu dois **être monté dessus**.\n"
         "• Un compte main par joueur. Pas d’alts pour slots, White Flags, shop ou PvP extra.\n"
         "• TPs pas cachés dans le render ennemi / pas pour drop dans une base.\n"
@@ -428,7 +428,8 @@ RULES_DE = {
         "1. Max **3 Bases** (1 Main) pro Map und **4 TPs**.\n"
         "2. Nach einem Raid Raid-Structures entfernen oder in eine echte Base umwandeln (oder Admin Bescheid geben).\n"
         "3. Cave Edits / Donations **nicht erstattbar**.\n4. Gekaufte Mod-Caves werden entfernt, wenn du die Zone verlierst. Kein Replace/Refund.\n"
-        "5. Aggressive Wander-Dinos müssen im Dino Leash sein.\n6. Performance-Spam muss auf Staff-Anweisung weg."
+        "5. Aggressive Wander-Dinos müssen im Dino Leash sein.\n6. Performance-Spam muss auf Staff-Anweisung weg.\n\n"
+        "• **Alle uncryo’ten Dinos an der Base müssen unter Leash sein, max 5 Dinos pro Leash.**"
     )},
     "whiteflag": {"title": "🏳️ White-Flag-Schutz", "description": (
         "1. White Flag gilt **7 Tage** und kann nicht verlängert werden.\n2. Schützt nur die **Main Base**.\n"
@@ -439,7 +440,7 @@ RULES_DE = {
     )},
     "pvp": {"title": "⚔️ PvP- / Raid-Regeln", "description": (
         "1. Kein Third-Party-Raid.\n*(Alliances dürfen **Small Tribes** nicht raid-en. Small Tribe = **1–4 Member**.)*\n\n"
-        "2. Thralls nur PvE.\n3. Kein Cannon-Raid.\n\n**4. Space Whale**\n• Nicht im Propagator / nicht breedbar.\n• Kein Build auf Rücken/Platform.\n\n"
+        "2. Thralls nur PvE.\n3. **Raft, Zeppelin, Cannons sind während Raids nicht erlaubt.**\n\n**4. Space Whale**\n• Nicht im Propagator / nicht breedbar.\n• Kein Build auf Rücken/Platform.\n\n"
         "5. Volle Unsichtbarkeit im PvP verboten.\n6. Kein Spam in FOBs.\n7. Meks dürfen nicht meshen, außer zum Clearen von Mesh.\n"
         "8. Keine Donations mitten im Raid.\n9. Kein Popcorn / Upload / Loot zerstören oder mitnehmen während eines Raids.\n\n"
         "• **CS Medical Stations** und **Home Sweet Home** nur zum Healen beim **Breed**, nicht im Raid/Defense.\n\n"
@@ -462,7 +463,6 @@ RULES_DE = {
     )},
     "extra": {"title": "📌 Extra-Regeln & Strikes", "description": (
         "• Kein Verkauf von Bases/Dinos/Items/Tribe für Echtgeld.\n"
-        "• **Max 20 uncryo’te Dinos pro Base.** Aggressive/Neutral/Wander im Dino Leash (**max 4 pro Leash**).\n"
         "• Modded Entry mit Dino verteidigen = du musst **drauf sitzen**.\n"
         "• Ein Main-Account pro Spieler. Keine Alts für extra Slots, White Flags, Shop oder PvP.\n"
         "• TPs nicht im Enemy-Render verstecken / nicht in fremde Bases droppen.\n"
